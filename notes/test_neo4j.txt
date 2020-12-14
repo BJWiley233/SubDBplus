@@ -1,0 +1,168 @@
+CREATE (a:Protein{name: 'AKT1', uniprotID: 'P31749', protName: 'RAC-alpha serine/threonine-protein kinase', organism: 'Homo sapiens', taxid: 9606, altGeneName: ["PKB", "RAC"], altProtName: ["Protein kinase B", "Protein kinase B alpha", "RAC-PK-alpha"]})
+RETURN a.uniprotID
+
+
+CREATE (a:Protein{name: 'GSK3B', uniprotID: 'P49841', protName: 'Glycogen synthase kinase-3 beta', organism: 'Homo sapiens', taxid: 9606, altGeneName: NULL, altProtName: ["Serine/threonine-protein kinase GSK3B"]})
+RETURN a.uniprotID
+
+
+MATCH (a:Protein{name: 'GSK3B', uniprotID: 'P49841', organism: 'Homo sapiens', taxid: 9606})
+MATCH (b:Protein{name: 'AKT1', uniprotID: 'P31749', organism: 'Homo sapiens', taxid: 9606})
+MERGE (a)
+MERGE (b)
+MERGE (b)-[i:INTERACTION {name: 'association', prey: b.name, bait: a.name, dectionMethod: 'anti bait coimmunoprecipitation', 
+publicationID: '...', dbSource: '...', positive: True}]-(a)
+RETURN a, b, a.uniprotID, b.uniprotID
+
+###
+MATCH (a:Protein{name: 'GSK3B', uniprotID: 'P49841', organism: 'Homo sapiens', taxid: 9606})
+MATCH (b:Protein{name: 'AKT1', uniprotID: 'P31749', organism: 'Homo sapiens', taxid: 9606})
+MERGE (b)-[i:INTERACTION {name: 'association', prey: b.name, bait: a.name, dectionMethod: 'anti bait coimmunoprecipitation', 
+publicationID: '...', dbSource: '...', positive: True}]-(a)
+RETURN a, b, a.uniprotID, b.uniprotID
+###
+
+
+MATCH (n:Protein{name: 'AKT1', uniprotID: 'P31749', protName: 'RAC-alpha serine/threonine-protein kinase', organism: 'Homo sapiens', taxid: 9606, altGeneName: ["PKB", "RAC"], altProtName: ["Protein kinase B", "Protein kinase B alpha", "RAC-PK-alpha"]})
+WITH n.name AS name, COLLECT(n) AS nodelist, COUNT(*) AS count
+WHERE count > 1
+CALL apoc.refactor.mergeNodes(nodelist) YIELD node
+RETURN node
+
+MATCH (a:Protein{name: 'GSK3B', uniprotID: 'P49841', organism: 'Homo sapiens', taxid: 9606})
+RETURN 
+CASE a.altGeneName
+WHEN null
+THEN 1
+END
+
+
+MERGE (a:Protein{name: 'GSK3B', uniprotID: 'P49841', organism: 'Homo sapiens', taxid: 9606})
+MERGE (b:Protein{name: 'AKT1', uniprotID: 'P31749', organism: 'Homo sapiens', taxid: 9606})
+WITH a, b, "test" as newPub
+MERGE (b)-[i:INTERACTION {name: 'association', prey: b.name, bait: a.name, dectionMethod: 'anti bait coimmunoprecipitation', dbSource: "...", positive: True}]-(a)
+	ON CREATE SET i.publicationID = newPub
+	ON MATCH  SET i.publicationID = CASE i.publicationID
+    									WHEN null
+                                        THEN [newPub]
+
+MERGE (a:Protein{name: 'K3B', uniprotID: 'P49841', organism: 'Homo sapiens', taxid: 9606})
+MERGE (b:Protein{name: 'KT1', uniprotID: 'P31749', organism: 'Homo sapiens', taxid: 9606})
+WITH a, b "EBI-6666" AS identifier, "The article" AS pub, "Two hybdrid" as meth
+MERGE (b)-[i:INTERACTION {name: 'physical association', interactionID:['EBI-1550001']}]->(a)
+	ON CREATE SET i.interactionID = [identifier], i.publicationID = pub, i.
+RETURN a, b, a.uniprotID, b.uniprotID
+
+
+MERGE (a:Protein{name: 'GSK3B', uniprotID: 'P49841', organism: 'Homo sapiens', taxid: 9606})
+MERGE (b:Protein{name: 'AKT1', uniprotID: 'P31749', organism: 'Homo sapiens', taxid: 9606})
+WITH a, b, "test" as newPub
+MERGE (b)-[i:INTERACTION {name: 'association', prey: b.name, bait: a.name, dectionMethod: 'anti bait coimmunoprecipitation', dbSource: "...", positive: True}]-(a)
+	ON CREATE SET i.publicationID = newPub
+	ON MATCH  SET i.publicationID = CASE i.publicationID
+    									WHEN null
+                                        THEN [newPub]
+                                        ELSE i.publicationID + newPub
+                                        END
+RETURN a, b, a.uniprotID, b.uniprotID, i.publicationID
+
+
+
+
+
+
+******************************************************************
+MERGE (a:Protein{name: 'K3B', uniprotID: 'P49841', organism: 'Homo sapiens', taxid: 9606})
+	ON MATCH SET  a.altGeneName = CASE a.altGeneName
+    									WHEN null
+                                        THEN ["AAA", "AAAA"]
+                                        ELSE a.altGeneName + ["Syn31","Syn4"]
+                                        END,
+                  a.altProtName = CASE a.altProtName
+    									WHEN null
+                                        THEN ["BBB", "BBBB"]
+                                        ELSE a.altProtName + ["Syn31.....","Syn4......"]
+                                        END
+MERGE (b:Protein{name: 'KT1', uniprotID: 'P31749', organism: 'Homo sapiens', taxid: 9606})
+	ON MATCH SET  b.altGeneName = CASE b.altGeneName
+    									WHEN null
+                                        THEN ["Syn1", "Syn2"]
+                                        ELSE b.altGeneName + ["Syn1","Syn2"]
+                                        END,
+                  b.altProtName = CASE b.altProtName
+    									WHEN null
+                                        THEN ["Syn1......1", "Syn2......2"]
+                                        ELSE b.altProtName + ["Syn1.....","Syn2......"]
+                                        END
+WITH a, b, "EBI-999999" AS identifier, "Publish" AS pub, "Method" as meth
+MERGE (b)-[i:INTERACTION {name: 'physical association'}]->(a)
+	ON CREATE SET i.interactionID = identifier, 
+    			     i.publicationID = pub, 
+                 i.detectionMethod = meth
+   ON MATCH  SET i.interactionID = CASE i.interactionID
+    									WHEN null
+                                        THEN [identifier]
+                                        ELSE i.interactionID + identifier
+                                        END,
+                 i.publicationID = CASE i.publicationID
+    									WHEN null
+                                        THEN [pub]
+                                        ELSE i.publicationID + pub
+                                        END,
+                 i.detectionMethod = CASE i.detectionMethod
+    									WHEN null
+                                        THEN [meth]
+                                        ELSE i.detectionMethod + meth
+                                        END                                 
+RETURN a, b, a.uniprotID, b.uniprotID
+******************************************************************
+
+
+MERGE (a:Protein{uniprotID: 'P49841', taxid: 9606})
+	ON MATCH SET   a.altGeneName = CASE a.altGeneName
+    									WHEN null
+                                        THEN ["AAA", "AAAA"]
+                                        ELSE a.altGeneName + ["Syn31","Syn4"]
+                                        END,
+                  a.altProtName = CASE a.altProtName
+    									WHEN null
+                                        THEN ["BBB", "BBBB"]
+                                        ELSE a.altProtName + ["Syn31.....","Syn4......"]
+                                        END
+                  a.name = CASE a.altProtName
+    									WHEN null
+                                        THEN ["BBB", "BBBB"]
+                                        ELSE a.altProtName + ["Syn31.....","Syn4......"]
+                                        END                                        
+MERGE (b:Protein{name: 'KT1', uniprotID: 'P31749', organism: 'Homo sapiens', taxid: 9606})
+	ON MATCH SET  b.altGeneName = CASE b.altGeneName
+    									WHEN null
+                                        THEN ["Syn1", "Syn2"]
+                                        ELSE b.altGeneName + ["Syn1","Syn2"]
+                                        END,
+                  b.altProtName = CASE b.altProtName
+    									WHEN null
+                                        THEN ["Syn1......1", "Syn2......2"]
+                                        ELSE b.altProtName + ["Syn1.....","Syn2......"]
+                                        END
+WITH a, b, "EBI-999999" AS identifier, "Publish" AS pub, "Method" as meth
+MERGE (b)-[i:INTERACTION {name: 'physical association'}]->(a)
+	ON CREATE SET i.interactionID = identifier, 
+    			     i.publicationID = pub, 
+                 i.detectionMethod = meth
+   ON MATCH  SET i.interactionID = CASE i.interactionID
+    									WHEN null
+                                        THEN [identifier]
+                                        ELSE i.interactionID + identifier
+                                        END,
+                 i.publicationID = CASE i.publicationID
+    									WHEN null
+                                        THEN [pub]
+                                        ELSE i.publicationID + pub
+                                        END,
+                 i.detectionMethod = CASE i.detectionMethod
+    									WHEN null
+                                        THEN [meth]
+                                        ELSE i.detectionMethod + meth
+                                        END                                 
+RETURN a, b, a.uniprotID, b.uniprotID

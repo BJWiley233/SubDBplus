@@ -1,0 +1,141 @@
+CREATE (a:Protein{name: 'AKT1', 
+						uniprotID: 'P31749', 
+						protName: 'RAC-alpha serine/threonine-protein kinase', 
+						organism: 'Homo sapiens', 
+						taxid: 9606, 
+						altGeneName: ["PKB", "RAC"], 
+						altProtName: ["Protein kinase B", "Protein kinase B alpha", "RAC-PK-alpha"]})
+RETURN a.uniprotID, a.name
+
+
+CREATE (a:Protein{name: 'GSK3B', uniprotID: 'P49841', protName: 'Glycogen synthase kinase-3 beta', organism: 'Homo sapiens', taxid: 9606, altGeneName: NULL, altProtName: ["Serine/threonine-protein kinase GSK3B"]})
+RETURN a.uniprotID
+
+name (genePreferred)
+uniprotID
+protName (long)
+organism
+taxid 
+altGeneName (array)
+altProtName
+
+MERGE (a:Protein{name: $name, 
+                 uniprotID: $uniprotID, 
+                 organism: $organism, 
+                 taxid: $taxid})
+                  
+                  ON CREATE SET   a.proteinName = $proteinName,  
+                                  a.altGeneNames = $altGeneNames, 
+                                  a.altProtNames = $altProtNames
+                	ON MATCH SET  a.altGeneNames = CASE a.altGeneNames
+                                                    WHEN null
+                                                    THEN $altGeneNames
+                                                    ELSE apoc.coll.toSet(a.altGeneNames + $altGeneNames)
+                                                    END,
+                                  a.altProtNames = CASE a.altProtNames
+                                                    WHEN null
+                                                    THEN $altProtNames
+                                                    ELSE  apoc.coll.toSet(a.altProtNames + $altProtNames)
+                                                    END
+                RETURN a.uniprotID, a.name, a.proteinName
+
+########
+
+MERGE (a:$nodeTypeA{uniprotID: $interactorA, taxid: $taxidA})
+	ON CREATE SET a.name = $nameA
+					  a.organism = $organismA
+					  a.altGeneNames = $altGeneNamesA, 
+					  a.altProtNames = $altProtNamesA
+	
+	ON MATCH SET  a.altGeneNames = CASE a.altGeneNames
+                                                    WHEN null
+                                                    THEN $altGeneNamesA
+                                                    ELSE apoc.coll.toSet(a.altGeneNames + $altGeneNamesA)
+                                                    END,
+                 a.altProtNames = CASE a.altProtNames
+                                                    WHEN null
+                                                    THEN $altProtNamesA
+                                                    ELSE  apoc.coll.toSet(a.altProtNames + $altProtNamesA)
+                                                    END                                 
+
+MERGE (b:$nodeTypeB{uniprotID: $interactorB, taxid: $taxidB})
+	ON CREATE SET b.name = $nameB
+					  b.organism = $organismB
+					  b.altGeneNames = $altGeneNamesB, 
+					  b.altProtNames = $altProtNamesB
+	
+	ON MATCH SET  b.altGeneNames = CASE b.altGeneNames
+                                                    WHEN null
+                                                    THEN $altGeneNamesB
+                                                    ELSE apoc.coll.toSet(b.altGeneNames + $altGeneNamesB)
+                                                    END,
+                 b.altProtNames = CASE b.altProtNames
+                                                    WHEN null
+                                                    THEN $altProtNamesB
+                                                    ELSE  apoc.coll.toSet(b.altProtNames + $altProtNamesB)
+                                                    END 
+                                                      
+WITH a, b, $interactionID AS identifier, $pub AS pub, $detectionMethod as method,
+	  $site as site, $sourceDB as db
+MERGE ($directionFrom)-[i:INTERACTION {name: $interactionType}]->($directionTo)
+	ON CREATE SET i.interactionID   = [identifier], 
+    			     i.publicationID   = [pub], 
+                 i.detectionMethod = [method],
+                 i.site				  = [$intact_null]
+                 i.sourceDB		  = [db]            
+                 
+   ON MATCH  SET i.interactionID = i.interactionID + [identifier],
+                 i.publicationID = i.publicationID + [pub]
+                 i.detectionMethod = i.detectionMethod + [meth]
+                 i.site = i.site + [$intact_null]
+                 i.db = i.db + [db]                               
+RETURN a, b, $directionFrom.uniprotID, i.name, $directionTo.uniprotID
+
+
+Intact:	interactionID	publicationID	detectionMethod			IntAct(null)			sourceDB
+Merops:	cleavageID	   reference	   cleavage_type				Substrate_formula		MEROPS
+PSP   :	sitePlusMinus7AA		PSP(null)		in vivo, &or in vitro	ModSite					PhosphositePlus	
+PPASE :	sitePlusMinus5AA		literature		in vivo, &or in vitro	dephospsite				DEPhOsphorylation Database	
+
+
+
+
+##############
+MATCH (a:Protein)-[i:INTERACTION{name:"proteolysis"}]->(b:Protein)
+UNWIND i.entries as entry
+WITH a,b,entry, apoc.convert.fromJsonMap(entry) as e
+//UNWIND keys(e) as key
+//WHERE any(k in keys(e) WHERE e[k] = "protease assay")
+//WHERE e["detectionMethod"] <> "protease assay"
+RETURN a.uniprotID, b.uniprotID, e["interactionID"], entry, e
+//WHERE e["detectionMethod"] = "protease assay"
+#################
+MATCH (a:Protein)-[i:INTERACTION{name:"proteolysis"}]->(b:Protein)
+UNWIND i.entries as entry
+WITH a,b,entry, apoc.convert.fromJsonMap(entry) as e
+WHERE e["detectionMethod"] = "physiological"
+RETURN a.uniprotID, b.uniprotID, e["interactionID"], e
+#################
+MATCH (a:Protein)-[i:INTERACTION{name:"phosphorylation"}]->(b:Protein)
+UNWIND i.entries as entry
+WITH a,b,entry, apoc.convert.fromJsonMap(entry) as e
+WHERE e["sourceDB"] = "PhosphoSitePlus"
+RETURN a.uniprotID, b.uniprotID, e["interactionID"], e
+######################################################################################################
+
+
+MATCH p = (n:Protein { name:'AKT1', taxid: 9606 })-[:INTERACTION]->(b:Protein) 
+WITH *, relationships(p) as rs, last(relationships(p)).entries as lastE
+//UNWIND lastE as e
+//WITH *, rs, apoc.convert.fromJsonMap(e) as e2
+UNWIND rs as brian
+RETURN 
+	startNode(last(rs)).name as Protein1, 
+    //s, 
+    brian["name"],
+	endNode(last(rs)).name as Protein2, 
+    p
+ LIMIT 50
+ 
+ 
+ ######################################################################################################
