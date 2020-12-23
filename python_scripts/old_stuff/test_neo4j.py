@@ -14,12 +14,12 @@ import MySQLdb
 
 # community version
 #uri = "neo4j://localhost:7687"
-#driver = GraphDatabase.driver(uri, auth=("neo4j", "Swimgolf1212**"))
+#driver = GraphDatabase.driver(uri, auth=("neo4j", "**"))
 
 # desktop version
 uri = "neo4j://localhost:11003"
 uri = "bolt://localhost:7687"
-driver = GraphDatabase.driver(uri, auth=("neo4j", "Swimgolf1212**"))
+driver = GraphDatabase.driver(uri, auth=("neo4j", "**"))
 #driver = GraphDatabase.driver(uri, auth=("neo4j", "password"))
 
 
