@@ -1,6 +1,6 @@
 import mysql.connector
 
-cnx = mysql.connector.connect(user='root', password='Swimgolf1212**',
+cnx = mysql.connector.connect(user='root', password='**',
                               host='127.0.0.1',
                               database='merops')
 cursor = cnx.cursor()   
