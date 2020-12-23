@@ -3,7 +3,7 @@ library(magrittr)
 
 con <- neo4j_api$new(url = "http://localhost:7474", 
                      db = "protTest", user = "neo4j", 
-                     password = "Swimgolf1212**", isV4 = TRUE)
+                     password = "**", isV4 = TRUE)
 con$ping()
 
 library(httr)
