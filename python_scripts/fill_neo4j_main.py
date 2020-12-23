@@ -22,7 +22,7 @@ import json
 from queries import query_up, query_intact, query_merops2, query_psp2, query_ppase2
 
 userMySQL='root'
-passwordMySQL='Swimgolf1212**'
+passwordMySQL='**'
 hostMySQL='127.0.0.1'
 dbMySQL = 'protTest'
 
