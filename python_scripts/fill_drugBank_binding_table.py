@@ -16,7 +16,7 @@ import re
 
 
 userMySQL='root'
-passwordMySQL='Swimgolf1212**'
+passwordMySQL='**'
 hostMySQL='127.0.0.1'
 dbMySQL = 'protTest'
 
