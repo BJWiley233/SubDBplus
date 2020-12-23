@@ -67,7 +67,7 @@ len(ppase_data)
 uri = 'neo4j://localhost:7687'
 user = 'neo4j'
 # you'll need a password after you start 
-password = 'Swimgolf1212**'
+password = '**'
 db = 'protTest'
 
 from fill_neo4j import ProteinExample
