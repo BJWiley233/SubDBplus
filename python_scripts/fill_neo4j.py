@@ -72,6 +72,7 @@ class ProteinExample:
     
     @staticmethod
     def _create_protein(tx, protein):
+        print("PROTEIN:",protein)
         altGeneNames = None if not protein['geneNamesAlternative'] else json.loads(protein['geneNamesAlternative'])
         altProtNames = None if not protein['alternateNames'] else json.loads(protein['alternateNames'])
         

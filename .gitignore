@@ -5,3 +5,6 @@ Wiley_project.zip
 .Rhistory
 .RData
 ApplicationDesign.pdf
+SQL/Substrate_search.sql
+data/PhosphoSitePlus_Substrates_of_Kinases/*
+data/intact*

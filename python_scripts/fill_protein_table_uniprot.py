@@ -17,9 +17,65 @@ import numpy as np
 import json
 import xml.etree.ElementTree as ET
 import re
+from requests.adapters import HTTPAdapter, Retry
 
 
+re_next_link = re.compile(r'<(.+)>; rel="next"')
+retries = Retry(total=5, backoff_factor=0.25, status_forcelist=[500, 502, 503, 504])
+session = requests.Session()
+session.mount("https://", HTTPAdapter(max_retries=retries))
 
+def get_next_link(headers):
+    if "Link" in headers:
+        match = re_next_link.match(headers["Link"])
+        if match:
+            return match.group(1)
+
+def get_batch(batch_url):
+    while batch_url:
+        response = session.get(batch_url)
+        response.raise_for_status()
+        total = response.headers["x-total-results"]
+        yield response, total
+        batch_url = get_next_link(response.headers)
+
+url = 'https://rest.uniprot.org/uniprotkb/search?fields=accession%2Ccc_interaction&format=tsv&query=Insulin%20AND%20%28reviewed%3Atrue%29&size=500'
+,entry name,reviewed,protein names,genes(PREFERRED),genes(ALTERNATIVE),genes,interactor,organism-id,organism,families,length,database(MEROPS)
++AND+(organism:9606+OR+organism:10090+OR+organism:10116+OR+organism:10029+OR+organism:83333+OR+organism:559292+OR+organism:3702+OR+organism:7227)
+url = 'https://rest.uniprot.org/uniprotkb/search?fields=accession&query=reviewed:true+AND+family:kinase&format=tsv&size=500'
+url = 'https://rest.uniprot.org/uniprotkb/search?fields=accession&query=reviewed:true+AND+family:kinase&format=tsv'
+url = 'https://rest.uniprot.org/uniprotkb/search?fields=accession&format=tsv&query=reviewed:true&size=500'
+uniprot_url = "https://rest.uniprot.org/uniprotkb/?query=reviewed:true+AND+family:{}+AND+("
+uniprot_url += "+OR+".join(["organism:{}".format(str(i)) for i in organisms])
+uniprot_url += ")&columns=" + ",".join(up_tbl_cols) + "&format=tab"
+uniprot_url = "https://rest.uniprot.org/uniprotkb/search?fields=" + ",".join(up_tbl_cols)
+uniprot_url += "&query=reviewed:true+AND+family:{}+AND+(" 
+uniprot_url += "+OR+".join(["organism_id:{}".format(str(i)) for i in organisms])
+uniprot_url += ")&format=tsv&size=500"
+
+
+## for XML namespace for alt names and pdbs
+ns = {'up': 'http://uniprot.org/uniprot'}
+
+urls = [uniprot_url.format(fam) for fam in families]
+urls[0]
+
+
+interactions = {}
+
+for url in urls:
+    print(url)
+    dfs = []
+    total2 = 0
+    for batch, total in get_batch(url):
+        stringList = batch.text.split('\n')
+        #df = pd.DataFrame([x.split('\t') for x in stringList[1:]], columns=stringList[0].split('\t'))
+        #print(batch.text)
+        df = pd.read_csv(StringIO(batch.text), sep="\t")
+        dfs.append(df)
+        total2 += df.shape[0]
+        print(f'{total2} / {total}')
+    final_df = pd.concat
 # humans, mouse, rat, chinese hamster, Escherichia coli, Saccharomyces cerevisiae, 
 # Arabidopsis, drosophila
 # 
@@ -30,13 +86,17 @@ families = ['kinase', 'phosphatase', 'transferase', 'methyltransferase',
 # https://www.uniprot.org/help/uniprotkb_column_names
 # Real tables names on website and download are different
 # example "Gene names (primary)" for "genes(PREFERRED)"
+up_tbl_cols = ["accession", "id", "reviewed", "protein_name", "gene_primary",
+               "gene_synonym", "gene_names" , "cc_interaction", "organism_id", "organism_name", 
+               "protein_families", "length", "xref_merops"]
 up_tbl_cols = ["id", "entry name", "reviewed", "protein names", "genes(PREFERRED)",
                "genes(ALTERNATIVE)", "genes" , "interactor", "organism-id", "organism", 
                "families", "length", "database(MEROPS)"]
 
 
-user='root'
-password='**'
+user='dummy'
+#password='s3kr1t' # standard fake password
+password='password'
 host='127.0.0.1'
 db_name = "protTest"
 
@@ -56,14 +116,14 @@ TABLES['proteinsUniprot'] = (
     "    reviewed BOOL NOT NULL,"
     "    proteinName MEDIUMTEXT NOT NULL,"
     "    alternateNames JSON DEFAULT NULL,"
-    "    geneNamePreferred VARCHAR(45),"
+    "    geneNamePreferred VARCHAR(100),"
     "    geneNamesAlternative JSON DEFAULT NULL,"
     "    geneNamesAll JSON DEFAULT NULL,"
     "    interactsWith JSON DEFAULT NULL,"
     "    taxid INT,"
-    "    organism VARCHAR(100),"
+    "    organism VARCHAR(200),"
     "    organismCommon MEDIUMTEXT,"
-    "    proteinFamilies VARCHAR(255),"
+    "    proteinFamilies VARCHAR(455),"
     "    length INT,"
     "    meropsID VARCHAR(8) DEFAULT NULL,"
     "    headProteinFamily VARCHAR(45) NOT NULL"
@@ -136,11 +196,25 @@ for i in range(0, len(urls)):
     else:
         req.raise_for_status()
         continue
-    
+ 
+for i, url in enumerate(urls):
+    print(url)
+    dfs = []
+    total2 = 0
+    for batch, total in get_batch(url):
+        stringList = batch.text.split('\n')
+        #df = pd.DataFrame([x.split('\t') for x in stringList[1:]], columns=stringList[0].split('\t'))
+        #print(batch.text)
+        df = pd.read_csv(StringIO(batch.text), sep="\t")
+        dfs.append(df)
+        total2 += df.shape[0]
+        print(f'{total2} / {total}')
+    df_final = pd.concat(dfs)
+    df_final = df_final.replace({np.nan: None})
 
     n=0
-    
     for idx, row in df_final.iterrows():
+        print(n, families[i])
         print("*****************************",  row['Entry'])
         # if already in table skip it
         uniProtID = row['Entry']
@@ -148,8 +222,8 @@ for i in range(0, len(urls)):
             print(uniProtID, "in table already")
             continue
         
-        entryName = row['Entry name']
-        reviewed = 1 if row['Status']=='reviewed' else 0
+        entryName = row['Entry Name']
+        reviewed = 1 if row['Reviewed']=='reviewed' else 0
         
         ## no good way to get protein names separate from alternative names
         ## in the tabular format as some names have `tRNA (something) rest of first name`
@@ -190,19 +264,19 @@ for i in range(0, len(urls)):
             alternateNames = None
         
         ## can be None
-        geneNamePreferred = row['Gene names  (primary )']
+        geneNamePreferred = row['Gene Names (primary)']
        
         ## can be None
-        if row['Gene names  (synonym )']==None:
+        if row['Gene Names (synonym)']==None:
             geneNamesAlternative=None
         else:
-            geneNamesAlternative = row['Gene names  (synonym )'].split(' ')
+            geneNamesAlternative = row['Gene Names (synonym)'].split(' ')
         
         ## won't be None???? can be None
-        if row['Gene names']==None:
+        if row['Gene Names']==None:
             geneNamesAll=None
         else:
-            geneNamesAll = row['Gene names'].split(' ')
+            geneNamesAll = row['Gene Names'].split(' ')
         
         ## can be None
         if row['Interacts with']==None:
@@ -210,12 +284,12 @@ for i in range(0, len(urls)):
         else:
             interactsWith = row['Interacts with'].split('; ')
         
-        organismID = row['Organism ID']
+        organismID = row['Organism (ID)']
         organism = row['Organism'].split(" (")[0]
         organismCommon = "; ".join(re.findall('\(([^)]+)', row['Organism']))
         proteinFamilies = row['Protein families']
         length = row['Length']
-        meropsID = None if row['Cross-reference (MEROPS)'] == None else row['Cross-reference (MEROPS)'].split(";")[0]
+        meropsID = None if row['MEROPS']==None else row['MEROPS'].split(";")[0]
         headProteinFamily = families[i]
         
         ## slight chance primary gene name is empty
@@ -267,8 +341,8 @@ for i in range(0, len(urls)):
                         f.write(f"{k}:   {v}\n")  
                     continue
         n += 1 
-        #if n == 500:
-            #break
+        # if n == 2:
+        #     break
 
     
 

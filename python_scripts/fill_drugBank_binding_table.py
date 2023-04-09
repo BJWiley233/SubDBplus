@@ -15,14 +15,15 @@ import xml.etree.ElementTree as ET
 import re
 
 
-userMySQL='root'
-passwordMySQL='**'
-hostMySQL='127.0.0.1'
-dbMySQL = 'protTest'
+user='dummy'
+#password='s3kr1t' # standard fake password
+password='password'
+host='127.0.0.1'
+db_name = "protTest"
 
-cnx = connect(userMySQL, passwordMySQL, hostMySQL)
+cnx = connect(user, password, host)
 cursor = cnx.cursor()
-use_database(cnx, cursor, dbMySQL)
+use_database(cnx, cursor, db_name)
 
 #cursor.execute("DROP TABLE IF EXISTS pdbBindingSites")
 
@@ -88,17 +89,18 @@ pdbids = cursor.fetchall()
 ## test
 #pdbids = ['1A16']
 
-n=11300
+n=0
 # drugbank molecules associated with structure
-for pdb in pdbids[n:]:
-    
-    pdb_dbUrl = "https://www.ebi.ac.uk/pdbe/api/pdb/entry/drugbank/%s" % pdb;
+for pdb in pdbids:
+    print(pdb['pdbID'])
+    pdb_dbUrl = "https://www.ebi.ac.uk/pdbe/api/pdb/entry/drugbank/%s" % pdb['pdbID'];
     req = requests.get(pdb_dbUrl)
     if req.ok:
         print("OK")
     else:
         with open(drug_log_file, 'a') as f:
             f.write(f"{pdb}:\n")
+        n += 1
         continue
     
     drug_json = json.loads(req.content)
@@ -117,7 +119,7 @@ for pdb in pdbids[n:]:
                     try:
                         cursor.execute(
                             "REPLACE INTO pdbDrugBank VALUES (%s,%s,%s,%s)",
-                            (pdb[0], drugbank_id, drug, synonym)
+                            (pdb['pdbID'], drugbank_id, drug, synonym)
                         )
                         cnx.commit()
                     except mysql.connector.Error as err:
@@ -130,8 +132,8 @@ for pdb in pdbids[n:]:
     
     n += 1 
     print(n)
-    #if n == 2000:
-    #    break
+    if n == 2:
+        break
     
 n=300
 # binding sites in the .pdb files of structures
@@ -206,7 +208,7 @@ for pdb in pdbids[n:]:
                         with open(binding_site_log, 'a') as f:
                             f.write(f"{pdb}:   {site_ID}, {auth_uniprot_resi_num}\n")
     n += 1
-    #print(n)
+    print(n)
     #if n == 2000:
         #break
     

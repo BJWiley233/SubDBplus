@@ -19,4 +19,4 @@ awk -F '\t' '($12 !~ /(unspecified role)/ || $13 !~ /(unspecified role)/)' intac
 
 ## just for associations. Initially going to do 1000, now all future work.
 ## non-directional in bi-directional querying in neo4j
-awk -F '\t' '($12 ~ /(unspecified role)/ && $13 ~ /(unspecified role)/)' intact_cut.txt | head -n1000 > intact_associations.txt
+awk -F '\t' '($12 ~ /(unspecified role)/ && $13 ~ /(unspecified role)/)' intact_cut.txt | head -n3000 > intact_associations.txt

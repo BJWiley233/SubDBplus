@@ -27,15 +27,15 @@ preprocess with R
 
 """
 
-user='root'
-password='**'
+user='dummy'
+password='password'
 host='127.0.0.1'
 db_name = "protTest"
 
 cnx = connect(user, password, host)
 cursor = cnx.cursor()
 
-create_database(cursor, db_name)
+#create_database(cursor, db_name)
 use_database(cnx, cursor, db_name)
 cnx.database
 
@@ -88,7 +88,7 @@ intact = pd.read_csv("../data/intact_cleaned_R.txt", sep="\t", na_values="NA")
 df_final = intact.replace({np.nan: None})
 len(df_final)
 df_final_unique = df_final.drop_duplicates()
-
+len(df_final_unique)
 ## Fixed CHEBI for B and A in R script but only for B in MySQL and Neo4j
 ## B meaning the column from IntAct not in the reaction direction
 A = [itm[0] for itm in df_final_unique['X.ID.s..interactor.A'].str.findall('CHEBI.*') if len(itm)>0]
@@ -113,7 +113,7 @@ len(np.unique(np.concatenate([A, B])))
 ## Enter into MySQL
 log_file = "intact_not_entered.log"
 open(log_file, 'w').close()
-
+n=0
 for idx, row in df_final_unique.iterrows():
     altNamesA = None if not row["altNamesA"] else row["altNamesA"].split('|')
     altNamesB = None if not row["altNamesB"] else row["altNamesB"].split('|')
@@ -122,7 +122,7 @@ for idx, row in df_final_unique.iterrows():
     alternateNamesA = None if (not alternateNamesA or len(alternateNamesA)==0) else alternateNamesA
     geneNamesAlternativeA = None if not altNamesA else list(filter(lambda v: not re.compile(" ").search(v), altNamesA))
     geneNamesAlternativeA = None if (not geneNamesAlternativeA or len(geneNamesAlternativeA)==0) else geneNamesAlternativeA
-    
+    s
     alternateNamesB = None if not altNamesB else list(filter(re.compile(" ").search, altNamesB))
     alternateNamesB = None if (not alternateNamesB or len(alternateNamesB)==0) else alternateNamesB
     geneNamesAlternativeB = None if not altNamesB else list(filter(lambda v: not re.compile(" ").search(v), altNamesB))
@@ -162,6 +162,8 @@ for idx, row in df_final_unique.iterrows():
         print("Something went wrong: {}".format(err))
         with open(log_file, 'a') as f:
             f.write(f"{row['interactionID']}\n")
-
+    
+    print(n)
+    n += 1
 
 

@@ -271,8 +271,8 @@ observe({
     
     output$legend <- renderPlot({
       par(mar=c(1,1,1.8,1))
-      plot(NULL ,xaxt='n',yaxt='n',bty='n',ylab='',xlab='', xlim=0:1, ylim=0:1)
-      legend("topleft", legend = levels(as.factor(e.attrs$name)), lty = 1, lwd = 3, 
+      plot(NULL, xaxt='n',yaxt='n',bty='n',ylab='',xlab='', xlim=0:1, ylim=0:1)
+      legend("topleft", legend = levels(as.factor(e.attrs$name)), lty = 1, lwd = 3,
              col = c(unique(e.colors)), box.lty = 0, ncol = 5, cex=1.2, text.col = "#c7c7df")
       mtext("Reaction type", at=0.2, cex=2, col = "#c7c7df")
     }, bg = "#19191f")
@@ -368,7 +368,7 @@ observe({
                                           "}"),
                                         LengthMenu = c(5, 30, 50),
                                         columnDefs = list(
-                                          list(className = 'dt-body-left'),
+                                          list(className = 'dt-body-left', targets=1:12),
                                           list(width='325px', targets=12)),
                                         scrollY = '500px',
                                         pageLength = 50
@@ -518,7 +518,8 @@ or select a different UniProt ID.")
                                               "}"),
                                             LengthMenu = c(5, 30, 50),
                                             columnDefs = list(
-                                              list(className = 'dt-body-left'),
+                                              # targets = 1:12,
+                                              list(className = 'dt-body-left', targets=1:12),
                                               list(width='325px', targets=12)),
                                             scrollY = '500px',
                                             pageLength = 50

@@ -18,8 +18,8 @@ library(stringr)
 loadData <- function(query) {
   db <- RMySQL::dbConnect(RMySQL::MySQL(),
                           db = "protTest",
-                          username = "root",
-                          password = "**",
+                          username = "dummy",
+                          password = "password",
                           host = "127.0.0.1")
   dat <- dbGetQuery(db, query)
   dbDisconnect(db)
@@ -44,11 +44,11 @@ structures.query <- function(id) {
 }
 
 ## for the Forum.R placeholder
-intact <- loadData("SELECT * FROM intact")
-
-cols <- c("organismA", "organismB", "detectionMethod", 
-          "interactionType", "isNegative")
-intact[cols] <- lapply(intact[cols], factor)
+# intact <- loadData("SELECT * FROM intact")
+# 
+# cols <- c("organismA", "organismB", "detectionMethod", 
+#           "interactionType", "isNegative")
+# intact[cols] <- lapply(intact[cols], factor)
 
 
 drugBankBinding.query <- function(id) {
@@ -66,7 +66,7 @@ drugBankBinding.query <- function(id) {
 }
 
 ## Data Dictionary
-schema.mysql <- read.table("~/JHU_Fall_2020/Biological_DBs/Project/data_dict.csv",
+schema.mysql <- read.table("/home/coyote/tools/SubDBplus/data_dict.csv",
                            sep = ",", header = T, quote = "\"")
 #https://stackoverflow.com/questions/33180058/coerce-multiple-columns-to-factors-at-once
 cols <- c("MySQL.table.name", "Data.type",
@@ -115,15 +115,17 @@ library(neo4r)
 library(httr)
 library(igraph)
 library(rlist)
+library(attempt)
+# http://localhost:7474/browser/?dbms=neo4j://neo4j@localhost:7688&db=prottest
 
-con <- neo4j_api$new(url = "http://localhost:7474", 
+con <- neo4j_api$new(url = "http://localhost:7475", 
                      db = "protTest", user = "neo4j", 
-                     password = "**", isV4 = TRUE)
-status_code(GET("http://localhost:7474"))
+                     password = "neo4jneo4j", is_V4=TRUE)
 
 
 ## Function for Graph
 ## Used to get Graph Table as well
+# G = getGraph(UP.id="Q05655", direction="down", length=1, limit=10)
 getGraph <- function(UP.id, direction, length, limit=10) {
   
   if (direction=="down") {
@@ -155,11 +157,11 @@ getGraph <- function(UP.id, direction, length, limit=10) {
       LIMIT %d",  UP.id, direct.str, limit
   ) %>%
     call_neo4j(con, type="graph")
-  
+  # return(G)
   if (length(G)==0) {
     return("No results in graph. Try another protein.")
   } else {
- 
+    # print("fuck!!")
     ## tibble needs to be same length
     for (i in 1:length(G$nodes$properties)) {
       G$nodes$properties[[i]][['altGeneNames']] <- paste(unlist(G$nodes$properties[[i]][['altGeneNames']]),
@@ -170,15 +172,15 @@ getGraph <- function(UP.id, direction, length, limit=10) {
 
     G$nodes <- G$nodes %>%
       unnest_nodes(what = "properties")
-    
+
     G$relationships <- G$relationships %>%
       unnest_relationships() %>%
       select(startNode, endNode, type, everything())
-    
+
     return(G)
   }
 }
-
+# G = getGraph(UP.id="Q05655", direction="down", length=1, limit=10)
 ## Function to get all substrates from selected UniProt ID
 ## Main SIMPLE goal from database
 getSubstrates <- function(UP.id) {

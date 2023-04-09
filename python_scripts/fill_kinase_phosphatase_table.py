@@ -17,8 +17,8 @@ import requests
 import xml.etree.ElementTree as ET
 
 
-user='root'
-password='**'
+user='dummy'
+password='password'
 host='127.0.0.1'
 db_name = "protTest"
 
@@ -92,8 +92,8 @@ for table_name in TABLES:
 # PSP
 ###############################################################################
 ## Read in PSP data
-psp = pd.read_csv("../data/PhosphoSitePlus_Substrates_of_Kinases/Kinase_Substrate_Dataset", 
-                     sep="\t", skiprows=3)
+psp = pd.read_csv("../data/PhosphoSitePlus_Substrates_of_Kinases/Kinase_Substrate_Dataset2", 
+                     sep="\t", skiprows=0)
 psp.SUB_GENE.fillna(psp.SUBSTRATE, inplace=True)
 
 psp['in_vivo'] = np.where(psp['IN_VIVO_RXN']=='X', True, False)
@@ -134,7 +134,8 @@ id_name['P63058_OBS']
 keys = list(id_name.keys())[0:5]
 i = 0
 #for key in keys:
-for key in id_name.keys():
+    P06537
+for key in list(id_name.keys())[i-1:]:
     i += 1
     print("************************", i, key) 
     if id_name[key]:
@@ -203,7 +204,7 @@ for idx, row in psp_final.iterrows():
 # DEPOD
 ###############################################################################
 ## Read in DEPOD data
-ppase = pd.read_excel("../data/PPase_protSubtrates_201903.xls", na_values=["N/A", "N/A "])
+ppase = pd.read_csv("../data/PPase_protSubtrates_201903.csv", na_values=["N/A", "N/A "])
 ppase.columns
 #ppase = ppase.replace({np.nan: None})
 

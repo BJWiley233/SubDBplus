@@ -1,0 +1,704 @@
+Entry	Reviewed	Entry Name	Protein names	Gene Names	Organism	Length
+A6NNY8	reviewed	UBP27_HUMAN	Ubiquitin carboxyl-terminal hydrolase 27 (EC 3.4.19.12) (Deubiquitinating enzyme 27) (Ubiquitin carboxyl-terminal hydrolase 22-like) (Ubiquitin thioesterase 27) (Ubiquitin-specific-processing protease 27) (X-linked ubiquitin carboxyl-terminal hydrolase 27)	USP27X USP22L USP27	Homo sapiens (Human)	438
+O00303	reviewed	EIF3F_HUMAN	Eukaryotic translation initiation factor 3 subunit F (eIF3f) (Deubiquitinating enzyme eIF3f) (EC 3.4.19.12) (Eukaryotic translation initiation factor 3 subunit 5) (eIF-3-epsilon) (eIF3 p47)	EIF3F EIF3S5	Homo sapiens (Human)	357
+O00487	reviewed	PSDE_HUMAN	26S proteasome non-ATPase regulatory subunit 14 (EC 3.4.19.-) (26S proteasome regulatory subunit RPN11) (26S proteasome-associated PAD1 homolog 1)	PSMD14 POH1	Homo sapiens (Human)	310
+O00507	reviewed	USP9Y_HUMAN	Probable ubiquitin carboxyl-terminal hydrolase FAF-Y (EC 3.4.19.12) (Deubiquitinating enzyme FAF-Y) (Fat facets protein-related, Y-linked) (Ubiquitin thioesterase FAF-Y) (Ubiquitin-specific protease 9, Y chromosome) (Ubiquitin-specific-processing protease FAF-Y)	USP9Y DFFRY	Homo sapiens (Human)	2555
+O14641	reviewed	DVL2_HUMAN	Segment polarity protein dishevelled homolog DVL-2 (Dishevelled-2) (DSH homolog 2)	DVL2	Homo sapiens (Human)	736
+O15372	reviewed	EIF3H_HUMAN	Eukaryotic translation initiation factor 3 subunit H (eIF3h) (Eukaryotic translation initiation factor 3 subunit 3) (eIF-3-gamma) (eIF3 p40 subunit)	EIF3H EIF3S3	Homo sapiens (Human)	352
+O43395	reviewed	PRPF3_HUMAN	U4/U6 small nuclear ribonucleoprotein Prp3 (Pre-mRNA-splicing factor 3) (hPrp3) (U4/U6 snRNP 90 kDa protein)	PRPF3 HPRP3 PRP3	Homo sapiens (Human)	683
+O43521	reviewed	B2L11_HUMAN	Bcl-2-like protein 11 (Bcl2-L-11) (Bcl2-interacting mediator of cell death)	BCL2L11 BIM	Homo sapiens (Human)	198
+O60260	reviewed	PRKN_HUMAN	E3 ubiquitin-protein ligase parkin (Parkin) (EC 2.3.2.31) (Parkin RBR E3 ubiquitin-protein ligase) (Parkinson juvenile disease protein 2) (Parkinson disease protein 2)	PRKN PARK2	Homo sapiens (Human)	465
+O60264	reviewed	SMCA5_HUMAN	SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A member 5 (SWI/SNF-related matrix-associated actin-dependent regulator of chromatin A5) (EC 3.6.4.-) (Sucrose nonfermenting protein 2 homolog) (hSNF2H)	SMARCA5 SNF2H WCRF135	Homo sapiens (Human)	1052
+O60346	reviewed	PHLP1_HUMAN	PH domain leucine-rich repeat-containing protein phosphatase 1 (EC 3.1.3.16) (Pleckstrin homology domain-containing family E member 1) (PH domain-containing family E member 1) (Suprachiasmatic nucleus circadian oscillatory protein) (hSCOP)	PHLPP1 KIAA0606 PHLPP PLEKHE1 SCOP	Homo sapiens (Human)	1717
+O75317	reviewed	UBP12_HUMAN	Ubiquitin carboxyl-terminal hydrolase 12 (EC 3.4.19.12) (Deubiquitinating enzyme 12) (Ubiquitin thioesterase 12) (Ubiquitin-hydrolyzing enzyme 1) (Ubiquitin-specific-processing protease 12)	USP12 UBH1 USP12L1	Homo sapiens (Human)	370
+O75604	reviewed	UBP2_HUMAN	Ubiquitin carboxyl-terminal hydrolase 2 (EC 3.4.19.12) (41 kDa ubiquitin-specific protease) (Deubiquitinating enzyme 2) (Ubiquitin thioesterase 2) (Ubiquitin-specific-processing protease 2)	USP2 UBP41	Homo sapiens (Human)	605
+O94782	reviewed	UBP1_HUMAN	Ubiquitin carboxyl-terminal hydrolase 1 (EC 3.4.19.12) (Deubiquitinating enzyme 1) (hUBP) (Ubiquitin thioesterase 1) (Ubiquitin-specific-processing protease 1) [Cleaved into: Ubiquitin carboxyl-terminal hydrolase 1, N-terminal fragment]	USP1	Homo sapiens (Human)	785
+O94966	reviewed	UBP19_HUMAN	Ubiquitin carboxyl-terminal hydrolase 19 (EC 3.4.19.12) (Deubiquitinating enzyme 19) (Ubiquitin thioesterase 19) (Ubiquitin-specific-processing protease 19) (Zinc finger MYND domain-containing protein 9)	USP19 KIAA0891 ZMYND9	Homo sapiens (Human)	1318
+O95630	reviewed	STABP_HUMAN	STAM-binding protein (EC 3.4.19.-) (Associated molecule with the SH3 domain of STAM) (Endosome-associated ubiquitin isopeptidase)	STAMBP AMSH	Homo sapiens (Human)	424
+P09936	reviewed	UCHL1_HUMAN	Ubiquitin carboxyl-terminal hydrolase isozyme L1 (UCH-L1) (EC 3.4.19.12) (Neuron cytoplasmic protein 9.5) (PGP 9.5) (PGP9.5) (Ubiquitin thioesterase L1)	UCHL1	Homo sapiens (Human)	223
+P0CG47	reviewed	UBB_HUMAN	Polyubiquitin-B [Cleaved into: Ubiquitin]	UBB	Homo sapiens (Human)	229
+P0CG48	reviewed	UBC_HUMAN	Polyubiquitin-C [Cleaved into: Ubiquitin]	UBC	Homo sapiens (Human)	685
+P15374	reviewed	UCHL3_HUMAN	Ubiquitin carboxyl-terminal hydrolase isozyme L3 (UCH-L3) (EC 3.4.19.12) (Ubiquitin thioesterase L3)	UCHL3	Homo sapiens (Human)	230
+P20248	reviewed	CCNA2_HUMAN	Cyclin-A2 (Cyclin-A) (Cyclin A)	CCNA2 CCN1 CCNA	Homo sapiens (Human)	432
+P21580	reviewed	TNAP3_HUMAN	Tumor necrosis factor alpha-induced protein 3 (TNF alpha-induced protein 3) (EC 2.3.2.-) (EC 3.4.19.12) (OTU domain-containing protein 7C) (Putative DNA-binding protein A20) (Zinc finger protein A20) [Cleaved into: A20p50; A20p37]	TNFAIP3 OTUD7C	Homo sapiens (Human)	790
+P24941	reviewed	CDK2_HUMAN	Cyclin-dependent kinase 2 (EC 2.7.11.22) (Cell division protein kinase 2) (p33 protein kinase)	CDK2 CDKN2	Homo sapiens (Human)	298
+P32121	reviewed	ARRB2_HUMAN	Beta-arrestin-2 (Arrestin beta-2) (Non-visual arrestin-3)	ARRB2 ARB2 ARR2	Homo sapiens (Human)	409
+P35125	reviewed	UBP6_HUMAN	Ubiquitin carboxyl-terminal hydrolase 6 (EC 3.4.19.12) (Deubiquitinating enzyme 6) (Proto-oncogene TRE-2) (Ubiquitin thioesterase 6) (Ubiquitin-specific-processing protease 6)	USP6 HRP1 TRE2	Homo sapiens (Human)	1406
+P40818	reviewed	UBP8_HUMAN	Ubiquitin carboxyl-terminal hydrolase 8 (EC 3.4.19.12) (Deubiquitinating enzyme 8) (Ubiquitin isopeptidase Y) (hUBPy) (Ubiquitin thioesterase 8) (Ubiquitin-specific-processing protease 8)	USP8 KIAA0055 UBPY	Homo sapiens (Human)	1118
+P45974	reviewed	UBP5_HUMAN	Ubiquitin carboxyl-terminal hydrolase 5 (EC 3.4.19.12) (Deubiquitinating enzyme 5) (Isopeptidase T) (Ubiquitin thioesterase 5) (Ubiquitin-specific-processing protease 5)	USP5 ISOT	Homo sapiens (Human)	858
+P46736	reviewed	BRCC3_HUMAN	Lys-63-specific deubiquitinase BRCC36 (EC 3.4.19.-) (BRCA1-A complex subunit BRCC36) (BRCA1/BRCA2-containing complex subunit 3) (BRCA1/BRCA2-containing complex subunit 36) (BRISC complex subunit BRCC36)	BRCC3 BRCC36 C6.1A CXorf53	Homo sapiens (Human)	316
+P49407	reviewed	ARRB1_HUMAN	Beta-arrestin-1 (Arrestin beta-1) (Non-visual arrestin-2)	ARRB1 ARR1	Homo sapiens (Human)	418
+P50542	reviewed	PEX5_HUMAN	Peroxisomal targeting signal 1 receptor (PTS1 receptor) (PTS1R) (PTS1-BP) (Peroxin-5) (Peroxisomal C-terminal targeting signal import receptor) (Peroxisome receptor 1)	PEX5 PXR1	Homo sapiens (Human)	639
+P51784	reviewed	UBP11_HUMAN	Ubiquitin carboxyl-terminal hydrolase 11 (EC 3.4.19.12) (Deubiquitinating enzyme 11) (Ubiquitin thioesterase 11) (Ubiquitin-specific-processing protease 11)	USP11 UHX1	Homo sapiens (Human)	963
+P52732	reviewed	KIF11_HUMAN	Kinesin-like protein KIF11 (Kinesin-like protein 1) (Kinesin-like spindle protein HKSP) (Kinesin-related motor protein Eg5) (Thyroid receptor-interacting protein 5) (TR-interacting protein 5) (TRIP-5)	KIF11 EG5 KNSL1 TRIP5	Homo sapiens (Human)	1056
+P54252	reviewed	ATX3_HUMAN	Ataxin-3 (EC 3.4.19.12) (Machado-Joseph disease protein 1) (Spinocerebellar ataxia type 3 protein)	ATXN3 ATX3 MJD MJD1 SCA3	Homo sapiens (Human)	361
+P54578	reviewed	UBP14_HUMAN	Ubiquitin carboxyl-terminal hydrolase 14 (EC 3.4.19.12) (Deubiquitinating enzyme 14) (Ubiquitin thioesterase 14) (Ubiquitin-specific-processing protease 14)	USP14 TGT	Homo sapiens (Human)	494
+P55072	reviewed	TERA_HUMAN	Transitional endoplasmic reticulum ATPase (TER ATPase) (EC 3.6.4.6) (15S Mg(2+)-ATPase p97 subunit) (Valosin-containing protein) (VCP)	VCP	Homo sapiens (Human)	806
+P58004	reviewed	SESN2_HUMAN	Sestrin-2 (EC 1.11.1.-) (Hypoxia-induced gene)	SESN2 Hi95 SEST2	Homo sapiens (Human)	480
+P62068	reviewed	UBP46_HUMAN	Ubiquitin carboxyl-terminal hydrolase 46 (EC 3.4.19.12) (Deubiquitinating enzyme 46) (Ubiquitin thioesterase 46) (Ubiquitin-specific-processing protease 46)	USP46	Homo sapiens (Human)	366
+P62081	reviewed	RS7_HUMAN	40S ribosomal protein S7 (Small ribosomal subunit protein eS7)	RPS7	Homo sapiens (Human)	194
+P62861	reviewed	RS30_HUMAN	FAU ubiquitin-like and ribosomal protein S30 [Cleaved into: Ubiquitin-like protein FUBI; 40S ribosomal protein S30 (Small ribosomal subunit protein eS30)]	FAU	Homo sapiens (Human)	133
+P62979	reviewed	RS27A_HUMAN	Ubiquitin-40S ribosomal protein S27a (Ubiquitin carboxyl extension protein 80) [Cleaved into: Ubiquitin; 40S ribosomal protein S27a (Small ribosomal subunit protein eS31)]	RPS27A UBA80 UBCEP1	Homo sapiens (Human)	156
+P62987	reviewed	RL40_HUMAN	Ubiquitin-60S ribosomal protein L40 (CEP52) (Ubiquitin A-52 residue ribosomal protein fusion product 1) [Cleaved into: Ubiquitin; 60S ribosomal protein L40 (Large ribosomal subunit protein eL40)]	UBA52 UBCEP2	Homo sapiens (Human)	128
+P78396	reviewed	CCNA1_HUMAN	Cyclin-A1	CCNA1	Homo sapiens (Human)	465
+P85037	reviewed	FOXK1_HUMAN	Forkhead box protein K1 (Myocyte nuclear factor) (MNF)	FOXK1 MNF	Homo sapiens (Human)	733
+P98170	reviewed	XIAP_HUMAN	E3 ubiquitin-protein ligase XIAP (EC 2.3.2.27) (Baculoviral IAP repeat-containing protein 4) (IAP-like protein) (ILP) (hILP) (Inhibitor of apoptosis protein 3) (IAP-3) (hIAP-3) (hIAP3) (RING-type E3 ubiquitin transferase XIAP) (X-linked inhibitor of apoptosis protein) (X-linked IAP)	XIAP API3 BIRC4 IAP3	Homo sapiens (Human)	497
+P98175	reviewed	RBM10_HUMAN	RNA-binding protein 10 (G patch domain-containing protein 9) (RNA-binding motif protein 10) (RNA-binding protein S1-1) (S1-1)	RBM10 DXS8237E GPATC9 GPATCH9 KIAA0122	Homo sapiens (Human)	930
+Q01167	reviewed	FOXK2_HUMAN	Forkhead box protein K2 (G/T-mismatch specific binding protein) (nGTBP) (Interleukin enhancer-binding factor 1)	FOXK2 ILF ILF1	Homo sapiens (Human)	660
+Q01804	reviewed	OTUD4_HUMAN	OTU domain-containing protein 4 (EC 3.4.19.12) (HIV-1-induced protein HIN-1)	OTUD4 HIN-1 KIAA1046	Homo sapiens (Human)	1114
+Q03181	reviewed	PPARD_HUMAN	Peroxisome proliferator-activated receptor delta (PPAR-delta) (NUCI) (Nuclear hormone receptor 1) (NUC1) (Nuclear receptor subfamily 1 group C member 2) (Peroxisome proliferator-activated receptor beta) (PPAR-beta)	PPARD NR1C2 PPARB	Homo sapiens (Human)	441
+Q07817	reviewed	B2CL1_HUMAN	Bcl-2-like protein 1 (Bcl2-L-1) (Apoptosis regulator Bcl-X)	BCL2L1 BCL2L BCLX	Homo sapiens (Human)	233
+Q07820	reviewed	MCL1_HUMAN	Induced myeloid leukemia cell differentiation protein Mcl-1 (Bcl-2-like protein 3) (Bcl2-L-3) (Bcl-2-related protein EAT/mcl1) (mcl1/EAT)	MCL1 BCL2L3	Homo sapiens (Human)	350
+Q0WX57	reviewed	U17LO_HUMAN	Ubiquitin carboxyl-terminal hydrolase 17-like protein 24 (EC 3.4.19.12) (Deubiquitinating enzyme 17) (Ubiquitin thioesterase 17) (Ubiquitin-specific-processing protease 17)	USP17L24 USP17 USP17H USP17I USP17J USP17K USP17L USP17M; USP17L25; USP17L26; USP17L27; USP17L28; USP17L29; USP17L30	Homo sapiens (Human)	530
+Q13107	reviewed	UBP4_HUMAN	Ubiquitin carboxyl-terminal hydrolase 4 (EC 3.4.19.12) (Deubiquitinating enzyme 4) (Ubiquitin thioesterase 4) (Ubiquitin-specific-processing protease 4) (Ubiquitous nuclear protein homolog)	USP4 UNP UNPH	Homo sapiens (Human)	963
+Q13114	reviewed	TRAF3_HUMAN	TNF receptor-associated factor 3 (EC 2.3.2.27) (CD40 receptor-associated factor 1) (CRAF1) (CD40-binding protein) (CD40BP) (LMP1-associated protein 1) (LAP1) (RING-type E3 ubiquitin transferase TRAF3)	TRAF3 CAP-1 CRAF1 TRAFAMN	Homo sapiens (Human)	568
+Q13489	reviewed	BIRC3_HUMAN	Baculoviral IAP repeat-containing protein 3 (EC 2.3.2.27) (Apoptosis inhibitor 2) (API2) (Cellular inhibitor of apoptosis 2) (C-IAP2) (IAP homolog C) (Inhibitor of apoptosis protein 1) (hIAP-1) (hIAP1) (RING finger protein 49) (RING-type E3 ubiquitin transferase BIRC3) (TNFR2-TRAF-signaling complex protein 1)	BIRC3 API2 MIHC RNF49	Homo sapiens (Human)	604
+Q13490	reviewed	BIRC2_HUMAN	Baculoviral IAP repeat-containing protein 2 (EC 2.3.2.27) (Cellular inhibitor of apoptosis 1) (C-IAP1) (IAP homolog B) (Inhibitor of apoptosis protein 2) (hIAP-2) (hIAP2) (RING finger protein 48) (RING-type E3 ubiquitin transferase BIRC2) (TNFR2-TRAF-signaling complex protein 2)	BIRC2 API1 MIHB RNF48	Homo sapiens (Human)	618
+Q14694	reviewed	UBP10_HUMAN	Ubiquitin carboxyl-terminal hydrolase 10 (EC 3.4.19.12) (Deubiquitinating enzyme 10) (Ubiquitin thioesterase 10) (Ubiquitin-specific-processing protease 10)	USP10 KIAA0190	Homo sapiens (Human)	798
+Q14CW9	reviewed	AT7L3_HUMAN	Ataxin-7-like protein 3 (SAGA-associated factor 11 homolog)	ATXN7L3	Homo sapiens (Human)	347
+Q15020	reviewed	SART3_HUMAN	Squamous cell carcinoma antigen recognized by T-cells 3 (SART-3) (Tat-interacting protein of 110 kDa) (Tip110) (p110 nuclear RNA-binding protein)	SART3 KIAA0156 TIP110	Homo sapiens (Human)	963
+Q15040	reviewed	JOS1_HUMAN	Josephin-1 (EC 3.4.19.12) (Josephin domain-containing protein 1)	JOSD1 JSPH1 KIAA0063	Homo sapiens (Human)	202
+Q15388	reviewed	TOM20_HUMAN	Mitochondrial import receptor subunit TOM20 homolog (Mitochondrial 20 kDa outer membrane protein) (Outer mitochondrial membrane receptor Tom20)	TOMM20 KIAA0016	Homo sapiens (Human)	145
+Q16186	reviewed	ADRM1_HUMAN	Proteasomal ubiquitin receptor ADRM1 (110 kDa cell membrane glycoprotein) (Gp110) (Adhesion-regulating molecule 1) (ARM-1) (Proteasome regulatory particle non-ATPase 13) (hRpn13) (Rpn13 homolog)	ADRM1 GP110	Homo sapiens (Human)	407
+Q16649	reviewed	NFIL3_HUMAN	Nuclear factor interleukin-3-regulated protein (E4 promoter-binding protein 4) (Interleukin-3 promoter transcriptional activator) (Interleukin-3-binding protein 1) (Transcriptional activator NF-IL3A)	NFIL3 E4BP4 IL3BP1	Homo sapiens (Human)	462
+Q16763	reviewed	UBE2S_HUMAN	Ubiquitin-conjugating enzyme E2 S (EC 2.3.2.23) (E2 ubiquitin-conjugating enzyme S) (E2-EPF) (Ubiquitin carrier protein S) (Ubiquitin-conjugating enzyme E2-24 kDa) (Ubiquitin-conjugating enzyme E2-EPF5) (Ubiquitin-protein ligase S)	UBE2S E2EPF OK/SW-cl.73	Homo sapiens (Human)	222
+Q5D1E8	reviewed	ZC12A_HUMAN	Endoribonuclease ZC3H12A (EC 3.1.-.-) (Monocyte chemotactic protein-induced protein 1) (MCP-induced protein 1) (MCPIP-1) (Regnase-1) (Reg1) (Zinc finger CCCH domain-containing protein 12A)	ZC3H12A MCPIP MCPIP1	Homo sapiens (Human)	599
+Q5T2D3	reviewed	OTUD3_HUMAN	OTU domain-containing protein 3 (EC 3.4.19.12)	OTUD3 KIAA0459	Homo sapiens (Human)	398
+Q5T5X7	reviewed	BEND3_HUMAN	BEN domain-containing protein 3	BEND3 KIAA1553	Homo sapiens (Human)	828
+Q5VVJ2	reviewed	MYSM1_HUMAN	Deubiquitinase MYSM1 (2A-DUB) (EC 3.4.19.-) (Myb-like, SWIRM and MPN domain-containing protein 1)	MYSM1 KIAA1915	Homo sapiens (Human)	828
+Q5VVQ6	reviewed	OTU1_HUMAN	Ubiquitin thioesterase OTU1 (EC 3.4.19.12) (DUBA-8) (HIV-1-induced protease 7) (HIN-7) (HsHIN7) (OTU domain-containing protein 2)	YOD1 DUBA8 HIN7 OTUD2 PRO0907	Homo sapiens (Human)	348
+Q6GQQ9	reviewed	OTU7B_HUMAN	OTU domain-containing protein 7B (EC 3.4.19.12) (Cellular zinc finger anti-NF-kappa-B protein) (Cezanne) (Zinc finger A20 domain-containing protein 1) (Zinc finger protein Cezanne)	OTUD7B ZA20D1	Homo sapiens (Human)	843
+Q6P4R8	reviewed	NFRKB_HUMAN	Nuclear factor related to kappa-B-binding protein (DNA-binding protein R kappa-B) (INO80 complex subunit G)	NFRKB INO80G	Homo sapiens (Human)	1299
+Q6QN14	reviewed	U17L6_HUMAN	Ubiquitin carboxyl-terminal hydrolase 17-like protein 6 (EC 3.4.19.12) (Deubiquitinating enzyme 17-like protein 6) (Ubiquitin thioesterase 17-like protein 6) (Ubiquitin-specific-processing protease 17-like protein 6)	USP17L6P USP17C USP17D USP17N	Homo sapiens (Human)	398
+Q6R6M4	reviewed	U17L2_HUMAN	Ubiquitin carboxyl-terminal hydrolase 17 (USP17) (EC 3.4.19.12) (Deubiquitinating enzyme 17-like protein 2) (Deubiquitinating protein 3) (DUB-3) (Ubiquitin carboxyl-terminal hydrolase 17-like protein 2) (Ubiquitin thioesterase 17-like protein 2) (Ubiquitin-specific-processing protease 17-like protein 2)	USP17L2 DUB3 USP17 USP17H USP17I USP17J USP17K USP17L USP17M	Homo sapiens (Human)	530
+Q6UWZ7	reviewed	ABRX1_HUMAN	BRCA1-A complex subunit Abraxas 1 (Coiled-coil domain-containing protein 98) (Protein FAM175A)	ABRAXAS1 ABRA1 CCDC98 FAM175A UNQ496/PRO1013	Homo sapiens (Human)	409
+Q6ZNK6	reviewed	TIFAB_HUMAN	TRAF-interacting protein with FHA domain-containing protein B (TIFA-like protein)	TIFAB	Homo sapiens (Human)	161
+Q70CQ1	reviewed	UBP49_HUMAN	Ubiquitin carboxyl-terminal hydrolase 49 (EC 3.4.19.12) (Deubiquitinating enzyme 49) (Ubiquitin thioesterase 49) (Ubiquitin-specific-processing protease 49)	USP49	Homo sapiens (Human)	688
+Q70CQ2	reviewed	UBP34_HUMAN	Ubiquitin carboxyl-terminal hydrolase 34 (EC 3.4.19.12) (Deubiquitinating enzyme 34) (Ubiquitin thioesterase 34) (Ubiquitin-specific-processing protease 34)	USP34 KIAA0570 KIAA0729	Homo sapiens (Human)	3546
+Q70CQ3	reviewed	UBP30_HUMAN	Ubiquitin carboxyl-terminal hydrolase 30 (EC 3.4.19.12) (Deubiquitinating enzyme 30) (Ubiquitin thioesterase 30) (Ubiquitin-specific-processing protease 30) (Ub-specific protease 30)	USP30	Homo sapiens (Human)	517
+Q70CQ4	reviewed	UBP31_HUMAN	Ubiquitin carboxyl-terminal hydrolase 31 (EC 3.4.19.12) (Deubiquitinating enzyme 31) (Ubiquitin thioesterase 31) (Ubiquitin-specific-processing protease 31)	USP31 KIAA1203	Homo sapiens (Human)	1352
+Q70EK9	reviewed	UBP51_HUMAN	Ubiquitin carboxyl-terminal hydrolase 51 (EC 3.4.19.12) (Deubiquitinating enzyme 51) (Ubiquitin thioesterase 51) (Ubiquitin-specific-processing protease 51)	USP51	Homo sapiens (Human)	711
+Q70EL1	reviewed	UBP54_HUMAN	Inactive ubiquitin carboxyl-terminal hydrolase 54 (Inactive ubiquitin-specific peptidase 54)	USP54 C10orf29	Homo sapiens (Human)	1684
+Q70EL2	reviewed	UBP45_HUMAN	Ubiquitin carboxyl-terminal hydrolase 45 (EC 3.4.19.12) (Deubiquitinating enzyme 45) (Ubiquitin thioesterase 45) (Ubiquitin-specific-processing protease 45)	USP45	Homo sapiens (Human)	814
+Q70EL3	reviewed	UBP50_HUMAN	Inactive ubiquitin carboxyl-terminal hydrolase 50 (Inactive ubiquitin-specific peptidase 50)	USP50	Homo sapiens (Human)	339
+Q70EL4	reviewed	UBP43_HUMAN	Ubiquitin carboxyl-terminal hydrolase 43 (EC 3.4.19.12) (Deubiquitinating enzyme 43) (Ubiquitin thioesterase 43) (Ubiquitin-specific-processing protease 43)	USP43	Homo sapiens (Human)	1123
+Q7L8S5	reviewed	OTU6A_HUMAN	OTU domain-containing protein 6A (EC 3.4.19.12) (DUBA-2)	OTUD6A DUBA2	Homo sapiens (Human)	288
+Q86T82	reviewed	UBP37_HUMAN	Ubiquitin carboxyl-terminal hydrolase 37 (EC 3.4.19.12) (Deubiquitinating enzyme 37) (Ubiquitin thioesterase 37) (Ubiquitin-specific-processing protease 37)	USP37 KIAA1594	Homo sapiens (Human)	979
+Q86UV5	reviewed	UBP48_HUMAN	Ubiquitin carboxyl-terminal hydrolase 48 (EC 3.4.19.12) (Deubiquitinating enzyme 48) (Ubiquitin thioesterase 48) (Ubiquitin-specific peptidase 48) (Ubiquitin-specific protease 48) (Ubiquitin-specific-processing protease 48)	USP48 USP31	Homo sapiens (Human)	1035
+Q86Y01	reviewed	DTX1_HUMAN	E3 ubiquitin-protein ligase DTX1 (EC 2.3.2.27) (Protein deltex-1) (Deltex1) (hDTX1) (RING-type E3 ubiquitin transferase DTX1)	DTX1	Homo sapiens (Human)	620
+Q8IXI2	reviewed	MIRO1_HUMAN	Mitochondrial Rho GTPase 1 (MIRO-1) (hMiro-1) (EC 3.6.5.-) (Rac-GTP-binding protein-like protein) (Ras homolog gene family member T1)	RHOT1 ARHT1	Homo sapiens (Human)	618
+Q8IXJ9	reviewed	ASXL1_HUMAN	Polycomb group protein ASXL1 (Additional sex combs-like protein 1)	ASXL1 KIAA0978	Homo sapiens (Human)	1541
+Q8N5J2	reviewed	MINY1_HUMAN	Ubiquitin carboxyl-terminal hydrolase MINDY-1 (EC 3.4.19.12) (Deubiquitinating enzyme MINDY-1) (Protein FAM63A)	MINDY1 FAM63A KIAA1390	Homo sapiens (Human)	469
+Q8N6M0	reviewed	OTU6B_HUMAN	Deubiquitinase OTUD6B (EC 3.4.19.12) (DUBA-5) (OTU domain-containing protein 6B)	OTUD6B DUBA5 CGI-77	Homo sapiens (Human)	293
+Q8NB14	reviewed	UBP38_HUMAN	Ubiquitin carboxyl-terminal hydrolase 38 (EC 3.4.19.12) (Deubiquitinating enzyme 38) (HP43.8KD) (Ubiquitin thioesterase 38) (Ubiquitin-specific-processing protease 38)	USP38 KIAA1891	Homo sapiens (Human)	1042
+Q8NBR6	reviewed	MINY2_HUMAN	Ubiquitin carboxyl-terminal hydrolase MINDY-2 (EC 3.4.19.12) (Deubiquitinating enzyme MINDY-2) (Protein FAM63B)	MINDY2 FAM63B KIAA1164	Homo sapiens (Human)	621
+Q8NFA0	reviewed	UBP32_HUMAN	Ubiquitin carboxyl-terminal hydrolase 32 (EC 3.4.19.12) (Deubiquitinating enzyme 32) (Renal carcinoma antigen NY-REN-60) (Ubiquitin thioesterase 32) (Ubiquitin-specific-processing protease 32)	USP32 USP10	Homo sapiens (Human)	1604
+Q8TAC2	reviewed	JOS2_HUMAN	Josephin-2 (EC 3.4.19.12) (Josephin domain-containing protein 2)	JOSD2 SBBI54	Homo sapiens (Human)	188
+Q8TAF3	reviewed	WDR48_HUMAN	WD repeat-containing protein 48 (USP1-associated factor 1) (WD repeat endosomal protein) (p80)	WDR48 KIAA1449 UAF1	Homo sapiens (Human)	677
+Q8TE49	reviewed	OTU7A_HUMAN	OTU domain-containing protein 7A (EC 3.4.19.12) (Zinc finger protein Cezanne 2)	OTUD7A C15orf16 CEZANNE2 OTUD7	Homo sapiens (Human)	926
+Q8TEY7	reviewed	UBP33_HUMAN	Ubiquitin carboxyl-terminal hydrolase 33 (EC 3.4.19.12) (Deubiquitinating enzyme 33) (Ubiquitin thioesterase 33) (Ubiquitin-specific-processing protease 33) (VHL-interacting deubiquitinating enzyme 1) (hVDU1)	USP33 KIAA1097 VDU1	Homo sapiens (Human)	942
+Q92560	reviewed	BAP1_HUMAN	Ubiquitin carboxyl-terminal hydrolase BAP1 (EC 3.4.19.12) (BRCA1-associated protein 1) (Cerebral protein 6)	BAP1 KIAA0272 hucep-6	Homo sapiens (Human)	729
+Q92793	reviewed	CBP_HUMAN	CREB-binding protein (Histone lysine acetyltransferase CREBBP) (EC 2.3.1.48) (Protein-lysine acetyltransferase CREBBP) (EC 2.3.1.-)	CREBBP CBP	Homo sapiens (Human)	2442
+Q92831	reviewed	KAT2B_HUMAN	Histone acetyltransferase KAT2B (EC 2.3.1.48) (Histone acetyltransferase PCAF) (Histone acetylase PCAF) (Lysine acetyltransferase 2B) (P300/CBP-associated factor) (P/CAF) (Spermidine acetyltransferase KAT2B) (EC 2.3.1.57)	KAT2B PCAF	Homo sapiens (Human)	832
+Q92844	reviewed	TANK_HUMAN	TRAF family member-associated NF-kappa-B activator (TRAF-interacting protein) (I-TRAF)	TANK ITRAF TRAF2	Homo sapiens (Human)	425
+Q92890	reviewed	UFD1_HUMAN	Ubiquitin recognition factor in ER-associated degradation protein 1 (Ubiquitin fusion degradation protein 1) (UB fusion protein 1)	UFD1 UFD1L	Homo sapiens (Human)	307
+Q92905	reviewed	CSN5_HUMAN	COP9 signalosome complex subunit 5 (SGN5) (Signalosome subunit 5) (EC 3.4.-.-) (Jun activation domain-binding protein 1)	COPS5 CSN5 JAB1	Homo sapiens (Human)	334
+Q92995	reviewed	UBP13_HUMAN	Ubiquitin carboxyl-terminal hydrolase 13 (EC 3.4.19.12) (Deubiquitinating enzyme 13) (Isopeptidase T-3) (ISOT-3) (Ubiquitin thioesterase 13) (Ubiquitin-specific-processing protease 13)	USP13 ISOT3	Homo sapiens (Human)	863
+Q93008	reviewed	USP9X_HUMAN	Probable ubiquitin carboxyl-terminal hydrolase FAF-X (EC 3.4.19.12) (Deubiquitinating enzyme FAF-X) (Fat facets in mammals) (hFAM) (Fat facets protein-related, X-linked) (Ubiquitin thioesterase FAF-X) (Ubiquitin-specific protease 9, X chromosome) (Ubiquitin-specific-processing protease FAF-X)	USP9X DFFRX FAM USP9	Homo sapiens (Human)	2554
+Q93009	reviewed	UBP7_HUMAN	Ubiquitin carboxyl-terminal hydrolase 7 (EC 3.4.19.12) (Deubiquitinating enzyme 7) (Herpesvirus-associated ubiquitin-specific protease) (Ubiquitin thioesterase 7) (Ubiquitin-specific-processing protease 7)	USP7 HAUSP	Homo sapiens (Human)	1102
+Q96AP4	reviewed	ZUP1_HUMAN	Zinc finger-containing ubiquitin peptidase 1 (EC 3.4.19.12) (Lys-63-specific deubiquitinase ZUFSP) (DUB) (Zinc finger with UFM1-specific peptidase domain protein)	ZUP1 C6orf113 ZUFSP	Homo sapiens (Human)	578
+Q96BN8	reviewed	OTUL_HUMAN	Ubiquitin thioesterase otulin (EC 3.4.19.12) (Deubiquitinating enzyme otulin) (OTU domain-containing deubiquitinase with linear linkage specificity) (Ubiquitin thioesterase Gumby)	OTULIN FAM105B	Homo sapiens (Human)	352
+Q96DC9	reviewed	OTUB2_HUMAN	Ubiquitin thioesterase OTUB2 (EC 3.4.19.12) (Deubiquitinating enzyme OTUB2) (OTU domain-containing ubiquitin aldehyde-binding protein 2) (Otubain-2) (Ubiquitin-specific-processing protease OTUB2)	OTUB2 C14orf137 OTB2 OTU2	Homo sapiens (Human)	234
+Q96EP0	reviewed	RNF31_HUMAN	E3 ubiquitin-protein ligase RNF31 (EC 2.3.2.31) (HOIL-1-interacting protein) (HOIP) (RING finger protein 31) (RING-type E3 ubiquitin transferase RNF31) (Zinc in-between-RING-finger ubiquitin-associated domain protein)	RNF31 ZIBRA	Homo sapiens (Human)	1072
+Q96FJ0	reviewed	STALP_HUMAN	AMSH-like protease (AMSH-LP) (EC 3.4.19.-) (STAM-binding protein-like 1)	STAMBPL1 AMSHLP KIAA1373	Homo sapiens (Human)	436
+Q96FW1	reviewed	OTUB1_HUMAN	Ubiquitin thioesterase OTUB1 (EC 3.4.19.12) (Deubiquitinating enzyme OTUB1) (OTU domain-containing ubiquitin aldehyde-binding protein 1) (Otubain-1) (hOTU1) (Ubiquitin-specific-processing protease OTUB1)	OTUB1 OTB1 OTU1 HSPC263	Homo sapiens (Human)	271
+Q96G74	reviewed	OTUD5_HUMAN	OTU domain-containing protein 5 (EC 3.4.19.12) (Deubiquitinating enzyme A) (DUBA)	OTUD5	Homo sapiens (Human)	571
+Q96GD4	reviewed	AURKB_HUMAN	Aurora kinase B (EC 2.7.11.1) (Aurora 1) (Aurora- and IPL1-like midbody-associated protein 1) (AIM-1) (Aurora/IPL1-related kinase 2) (ARK-2) (Aurora-related kinase 2) (STK-1) (Serine/threonine-protein kinase 12) (Serine/threonine-protein kinase 5) (Serine/threonine-protein kinase aurora-B)	AURKB AIK2 AIM1 AIRK2 ARK2 STK1 STK12 STK5	Homo sapiens (Human)	344
+Q96JH7	reviewed	VCIP1_HUMAN	Deubiquitinating protein VCPIP1 (EC 3.4.19.12) (Valosin-containing protein p97/p47 complex-interacting protein 1) (Valosin-containing protein p97/p47 complex-interacting protein p135) (VCP/p47 complex-interacting 135-kDa protein)	VCPIP1 KIAA1850 VCIP135	Homo sapiens (Human)	1222
+Q96K76	reviewed	UBP47_HUMAN	Ubiquitin carboxyl-terminal hydrolase 47 (EC 3.4.19.12) (Deubiquitinating enzyme 47) (Ubiquitin thioesterase 47) (Ubiquitin-specific-processing protease 47)	USP47	Homo sapiens (Human)	1375
+Q96Q83	reviewed	ALKB3_HUMAN	Alpha-ketoglutarate-dependent dioxygenase alkB homolog 3 (EC 1.14.11.33) (EC 1.14.11.54) (Alkylated DNA repair protein alkB homolog 3) (hABH3) (DEPC-1) (Prostate cancer antigen 1)	ALKBH3 ABH3 DEPC1	Homo sapiens (Human)	286
+Q96RL1	reviewed	UIMC1_HUMAN	BRCA1-A complex subunit RAP80 (Receptor-associated protein 80) (Retinoid X receptor-interacting protein 110) (Ubiquitin interaction motif-containing protein 1)	UIMC1 RAP80 RXRIP110	Homo sapiens (Human)	719
+Q96RU2	reviewed	UBP28_HUMAN	Ubiquitin carboxyl-terminal hydrolase 28 (EC 3.4.19.12) (Deubiquitinating enzyme 28) (Ubiquitin thioesterase 28) (Ubiquitin-specific-processing protease 28)	USP28 KIAA1515	Homo sapiens (Human)	1077
+Q99836	reviewed	MYD88_HUMAN	Myeloid differentiation primary response protein MyD88	MYD88	Homo sapiens (Human)	296
+Q9BSY9	reviewed	DESI2_HUMAN	Deubiquitinase DESI2 (EC 3.4.19.12) (Desumoylating isopeptidase 2) (DeSI-2) (PPPDE peptidase domain-containing protein 1) (Protein FAM152A)	DESI2 C1orf121 FAM152A PPPDE1 CGI-146 PNAS-4	Homo sapiens (Human)	194
+Q9BXM7	reviewed	PINK1_HUMAN	Serine/threonine-protein kinase PINK1, mitochondrial (EC 2.7.11.1) (BRPK) (PTEN-induced putative kinase protein 1)	PINK1	Homo sapiens (Human)	581
+Q9BXU7	reviewed	UBP26_HUMAN	Ubiquitin carboxyl-terminal hydrolase 26 (EC 3.4.19.12) (Deubiquitinating enzyme 26) (Ubiquitin thioesterase 26) (Ubiquitin-specific-processing protease 26)	USP26	Homo sapiens (Human)	913
+Q9BYM8	reviewed	HOIL1_HUMAN	RanBP-type and C3HC4-type zinc finger-containing protein 1 (EC 2.3.2.31) (HBV-associated factor 4) (Heme-oxidized IRP2 ubiquitin ligase 1) (HOIL-1) (Hepatitis B virus X-associated protein 4) (RING finger protein 54) (RING-type E3 ubiquitin transferase HOIL-1) (Ubiquitin-conjugating enzyme 7-interacting protein 3)	RBCK1 C20orf18 RNF54 UBCE7IP3 XAP3 XAP4	Homo sapiens (Human)	510
+Q9BZS1	reviewed	FOXP3_HUMAN	Forkhead box protein P3 (Scurfin) [Cleaved into: Forkhead box protein P3, C-terminally processed; Forkhead box protein P3 41 kDa form]	FOXP3 IPEX JM2	Homo sapiens (Human)	431
+Q9H0E7	reviewed	UBP44_HUMAN	Ubiquitin carboxyl-terminal hydrolase 44 (EC 3.4.19.12) (Deubiquitinating enzyme 44) (Ubiquitin thioesterase 44) (Ubiquitin-specific-processing protease 44)	USP44	Homo sapiens (Human)	712
+Q9H0F6	reviewed	SHRPN_HUMAN	Sharpin (Shank-associated RH domain-interacting protein) (Shank-interacting protein-like 1) (hSIPL1)	SHARPIN SIPL1 PSEC0216	Homo sapiens (Human)	387
+Q9H4L4	reviewed	SENP3_HUMAN	Sentrin-specific protease 3 (EC 3.4.22.-) (SUMO-1-specific protease 3) (Sentrin/SUMO-specific protease SENP3)	SENP3 SSP3 SUSP3	Homo sapiens (Human)	574
+Q9H6Y7	reviewed	RN167_HUMAN	E3 ubiquitin-protein ligase RNF167 (EC 2.3.2.27) (RING finger protein 167)	RNF167 RING105 LP2254	Homo sapiens (Human)	350
+Q9H8M7	reviewed	MINY3_HUMAN	Ubiquitin carboxyl-terminal hydrolase MINDY-3 (EC 3.4.19.12) (Dermal papilla-derived protein 5) (Deubiquitinating enzyme MINDY-3) (Protein CARP)	MINDY3 C10orf97 CARP DERP5 FAM188A MSTP126 My042	Homo sapiens (Human)	445
+Q9H9J4	reviewed	UBP42_HUMAN	Ubiquitin carboxyl-terminal hydrolase 42 (EC 3.4.19.12) (Deubiquitinating enzyme 42) (Ubiquitin thioesterase 42) (Ubiquitin-specific-processing protease 42)	USP42	Homo sapiens (Human)	1324
+Q9HBJ7	reviewed	UBP29_HUMAN	Ubiquitin carboxyl-terminal hydrolase 29 (EC 3.4.19.12) (Deubiquitinating enzyme 29) (Ubiquitin thioesterase 29) (Ubiquitin-specific-processing protease 29)	USP29	Homo sapiens (Human)	922
+Q9NP73	reviewed	ALG13_HUMAN	Putative bifunctional UDP-N-acetylglucosamine transferase and deubiquitinase ALG13 (EC 2.4.1.141) (EC 3.4.19.12) (Asparagine-linked glycosylation 13 homolog) (Glycosyltransferase 28 domain-containing protein 1) (UDP-N-acetylglucosamine transferase subunit ALG13 homolog)	ALG13 CXorf45 GLT28D1 MDS031	Homo sapiens (Human)	1137
+Q9NPA8	reviewed	ENY2_HUMAN	Transcription and mRNA export factor ENY2 (Enhancer of yellow 2 transcription factor homolog)	ENY2 DC6	Homo sapiens (Human)	101
+Q9NQC7	reviewed	CYLD_HUMAN	Ubiquitin carboxyl-terminal hydrolase CYLD (EC 3.4.19.12) (Deubiquitinating enzyme CYLD) (Ubiquitin thioesterase CYLD) (Ubiquitin-specific-processing protease CYLD)	CYLD CYLD1 KIAA0849 HSPC057	Homo sapiens (Human)	956
+Q9NUU6	reviewed	OTULL_HUMAN	Inactive ubiquitin thioesterase OTULINL	OTULINL FAM105A	Homo sapiens (Human)	356
+Q9NVE5	reviewed	UBP40_HUMAN	Ubiquitin carboxyl-terminal hydrolase 40 (EC 3.4.19.12) (Deubiquitinating enzyme 40) (Ubiquitin thioesterase 40) (Ubiquitin-specific-processing protease 40)	USP40	Homo sapiens (Human)	1235
+Q9NWV8	reviewed	BABA1_HUMAN	BRISC and BRCA1-A complex member 1 (Mediator of RAP80 interactions and targeting subunit of 40 kDa) (New component of the BRCA1-A complex)	BABAM1 C19orf62 MERIT40 NBA1 HSPC142	Homo sapiens (Human)	329
+Q9NXR7	reviewed	BABA2_HUMAN	BRISC and BRCA1-A complex member 2 (BRCA1-A complex subunit BRE) (BRCA1/BRCA2-containing complex subunit 45) (Brain and reproductive organ-expressed protein)	BABAM2 BRCC45 BRE	Homo sapiens (Human)	383
+Q9P275	reviewed	UBP36_HUMAN	Ubiquitin carboxyl-terminal hydrolase 36 (EC 3.4.19.12) (Deubiquitinating enzyme 36) (Ubiquitin thioesterase 36) (Ubiquitin-specific-processing protease 36)	USP36 KIAA1453	Homo sapiens (Human)	1123
+Q9UGI0	reviewed	ZRAN1_HUMAN	Ubiquitin thioesterase ZRANB1 (EC 3.4.19.12) (TRAF-binding domain-containing protein) (hTrabid) (Zinc finger Ran-binding domain-containing protein 1)	ZRANB1 TRABID	Homo sapiens (Human)	708
+Q9UHP3	reviewed	UBP25_HUMAN	Ubiquitin carboxyl-terminal hydrolase 25 (EC 3.4.19.12) (Deubiquitinating enzyme 25) (USP on chromosome 21) (Ubiquitin thioesterase 25) (Ubiquitin-specific-processing protease 25)	USP25 USP21	Homo sapiens (Human)	1055
+Q9UIF9	reviewed	BAZ2A_HUMAN	Bromodomain adjacent to zinc finger domain protein 2A (Transcription termination factor I-interacting protein 5) (TTF-I-interacting protein 5) (Tip5) (hWALp3)	BAZ2A KIAA0314 TIP5	Homo sapiens (Human)	1905
+Q9UK80	reviewed	UBP21_HUMAN	Ubiquitin carboxyl-terminal hydrolase 21 (EC 3.4.19.12) (Deubiquitinating enzyme 21) (Ubiquitin thioesterase 21) (Ubiquitin-specific-processing protease 21)	USP21 USP23 PP1490	Homo sapiens (Human)	565
+Q9UM11	reviewed	FZR1_HUMAN	Fizzy-related protein homolog (Fzr) (CDC20-like protein 1) (Cdh1/Hct1 homolog) (hCDH1)	FZR1 CDH1 FYR FZR KIAA1242	Homo sapiens (Human)	496
+Q9UM82	reviewed	SPAT2_HUMAN	Spermatogenesis-associated protein 2	SPATA2 KIAA0757 PD1	Homo sapiens (Human)	520
+Q9UMW8	reviewed	UBP18_HUMAN	Ubl carboxyl-terminal hydrolase 18 (EC 3.4.19.12) (43 kDa ISG15-specific protease) (hUBP43) (ISG15-specific-processing protease) (Ubl thioesterase 18)	USP18 ISG43	Homo sapiens (Human)	372
+Q9UPT9	reviewed	UBP22_HUMAN	Ubiquitin carboxyl-terminal hydrolase 22 (EC 3.4.19.12) (Deubiquitinating enzyme 22) (Ubiquitin thioesterase 22) (Ubiquitin-specific-processing protease 22)	USP22 KIAA1063 USP3L	Homo sapiens (Human)	525
+Q9UPU5	reviewed	UBP24_HUMAN	Ubiquitin carboxyl-terminal hydrolase 24 (EC 3.4.19.12) (Deubiquitinating enzyme 24) (Ubiquitin thioesterase 24) (Ubiquitin-specific-processing protease 24)	USP24 KIAA1057	Homo sapiens (Human)	2620
+Q9Y2K6	reviewed	UBP20_HUMAN	Ubiquitin carboxyl-terminal hydrolase 20 (EC 3.4.19.12) (Deubiquitinating enzyme 20) (Ubiquitin thioesterase 20) (Ubiquitin-specific-processing protease 20) (VHL-interacting deubiquitinating enzyme 2) (hVDU2)	USP20 KIAA1003 LSFR3A VDU2	Homo sapiens (Human)	914
+Q9Y4E8	reviewed	UBP15_HUMAN	Ubiquitin carboxyl-terminal hydrolase 15 (EC 3.4.19.12) (Deubiquitinating enzyme 15) (Ubiquitin thioesterase 15) (Ubiquitin-specific-processing protease 15) (Unph-2) (Unph4)	USP15 KIAA0529	Homo sapiens (Human)	981
+Q9Y4K3	reviewed	TRAF6_HUMAN	TNF receptor-associated factor 6 (EC 2.3.2.27) (E3 ubiquitin-protein ligase TRAF6) (Interleukin-1 signal transducer) (RING finger protein 85) (RING-type E3 ubiquitin transferase TRAF6)	TRAF6 RNF85	Homo sapiens (Human)	522
+Q9Y5K5	reviewed	UCHL5_HUMAN	Ubiquitin carboxyl-terminal hydrolase isozyme L5 (UCH-L5) (EC 3.4.19.12) (Ubiquitin C-terminal hydrolase UCH37) (Ubiquitin thioesterase L5)	UCHL5 UCH37 AD-019 CGI-70	Homo sapiens (Human)	329
+Q9Y5T5	reviewed	UBP16_HUMAN	Ubiquitin carboxyl-terminal hydrolase 16 (EC 3.4.19.12) (Deubiquitinating enzyme 16) (Ubiquitin thioesterase 16) (Ubiquitin-processing protease UBP-M) (Ubiquitin-specific-processing protease 16)	USP16 MSTP039	Homo sapiens (Human)	823
+Q9Y6I4	reviewed	UBP3_HUMAN	Ubiquitin carboxyl-terminal hydrolase 3 (EC 3.4.19.12) (Deubiquitinating enzyme 3) (Ubiquitin thioesterase 3) (Ubiquitin-specific-processing protease 3)	USP3	Homo sapiens (Human)	520
+Q9Y6K9	reviewed	NEMO_HUMAN	NF-kappa-B essential modulator (NEMO) (FIP-3) (IkB kinase-associated protein 1) (IKKAP1) (Inhibitor of nuclear factor kappa-B kinase subunit gamma) (I-kappa-B kinase subunit gamma) (IKK-gamma) (IKKG) (IkB kinase subunit gamma) (NF-kappa-B essential modifier)	IKBKG FIP3 NEMO	Homo sapiens (Human)	419
+A0A024R305	unreviewed	A0A024R305_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	BAP1 hCG_40341	Homo sapiens (Human)	729
+A6NCW0	reviewed	U17L3_HUMAN	Ubiquitin carboxyl-terminal hydrolase 17-like protein 3 (EC 3.4.19.12) (Deubiquitinating enzyme 17-like protein 3) (Ubiquitin thioesterase 17-like protein 3) (Ubiquitin-specific-processing protease 17-like protein 3)	USP17L3 USP17B USP17F	Homo sapiens (Human)	530
+A8MUK1	reviewed	U17L5_HUMAN	Ubiquitin carboxyl-terminal hydrolase 17-like protein 5 (EC 3.4.19.12) (Deubiquitinating enzyme 17-like protein 5) (Ubiquitin thioesterase 17-like protein 5) (Ubiquitin-specific-processing protease 17-like protein 5)	USP17L5	Homo sapiens (Human)	530
+Q4G0A6	reviewed	MINY4_HUMAN	Probable ubiquitin carboxyl-terminal hydrolase MINDY-4 (EC 3.4.19.12) (Probable deubiquitinating enzyme MINDY-4)	MINDY4 C7orf67 FAM188B	Homo sapiens (Human)	757
+Q5VV17	reviewed	OTUD1_HUMAN	OTU domain-containing protein 1 (EC 3.4.19.12) (DUBA-7)	OTUD1 DUBA7 OTDC1	Homo sapiens (Human)	481
+Q7RTZ2	reviewed	U17L1_HUMAN	Ubiquitin carboxyl-terminal hydrolase 17-like protein 1 (EC 3.4.19.12) (Deubiquitinating enzyme 17-like protein 1) (Ubiquitin thioesterase 17-like protein 1) (Ubiquitin-specific-processing protease 17-like protein 1)	USP17L1 USP17L USP17L1P	Homo sapiens (Human)	530
+Q96GX2	reviewed	A7L3B_HUMAN	Ataxin-7-like protein 3B	ATXN7L3B	Homo sapiens (Human)	97
+Q9H3M9	reviewed	ATX3L_HUMAN	Ataxin-3-like protein (EC 3.4.19.12) (Machado-Joseph disease protein 1-like)	ATXN3L ATX3L MJDL	Homo sapiens (Human)	355
+Q9P2H5	reviewed	UBP35_HUMAN	Ubiquitin carboxyl-terminal hydrolase 35 (EC 3.4.19.12) (Deubiquitinating enzyme 35) (Ubiquitin thioesterase 35) (Ubiquitin-specific-processing protease 35)	USP35 KIAA1372 USP34	Homo sapiens (Human)	1018
+V9HW74	unreviewed	V9HW74_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	HEL-117 HEL-S-53	Homo sapiens (Human)	223
+A0A024R2X6	unreviewed	A0A024R2X6_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP4 hCG_20131	Homo sapiens (Human)	916
+A0A024R6Q9	unreviewed	A0A024R6Q9_HUMAN	Ubiquitin carboxyl-terminal hydrolase CYLD (Deubiquitinating enzyme CYLD) (Ubiquitin thioesterase CYLD) (Ubiquitin-specific-processing protease CYLD)	CYLD hCG_1811700	Homo sapiens (Human)	635
+A0A024R6T1	unreviewed	A0A024R6T1_HUMAN	Ubiquitin carboxyl-terminal hydrolase CYLD (Deubiquitinating enzyme CYLD) (Ubiquitin thioesterase CYLD) (Ubiquitin-specific-processing protease CYLD)	CYLD hCG_1811700	Homo sapiens (Human)	953
+A0A024R8A9	unreviewed	A0A024R8A9_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP20 hCG_31247	Homo sapiens (Human)	916
+A0A024RBM3	unreviewed	A0A024RBM3_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP30 hCG_40329	Homo sapiens (Human)	517
+A0A0A0MS38	unreviewed	A0A0A0MS38_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	310
+A0A140VJZ1	unreviewed	A0A140VJZ1_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)		Homo sapiens (Human)	858
+A1LPW7	unreviewed	A1LPW7_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP4 hCG_20131	Homo sapiens (Human)	963
+A6NCW7	reviewed	U17L4_HUMAN	Inactive ubiquitin carboxyl-terminal hydrolase 17-like protein 4	USP17L4	Homo sapiens (Human)	530
+A8KAB0	unreviewed	A8KAB0_HUMAN	Ubiquitin carboxyl-terminal hydrolase CYLD (Deubiquitinating enzyme CYLD) (Ubiquitin thioesterase CYLD) (Ubiquitin-specific-processing protease CYLD)		Homo sapiens (Human)	953
+B3KND1	unreviewed	B3KND1_HUMAN	Ubiquitin carboxyl-terminal hydrolase CYLD (Deubiquitinating enzyme CYLD) (Ubiquitin thioesterase CYLD) (Ubiquitin-specific-processing protease CYLD)		Homo sapiens (Human)	731
+C9J2P7	reviewed	U17LF_HUMAN	Ubiquitin carboxyl-terminal hydrolase 17-like protein 15 (EC 3.4.19.12)	USP17L15	Homo sapiens (Human)	553
+C9JJH3	reviewed	U17LA_HUMAN	Ubiquitin carboxyl-terminal hydrolase 17-like protein 10 (EC 3.4.19.12)	USP17L10	Homo sapiens (Human)	530
+C9JLJ4	reviewed	U17LD_HUMAN	Ubiquitin carboxyl-terminal hydrolase 17-like protein 13 (EC 3.4.19.12)	USP17L13	Homo sapiens (Human)	530
+C9JPN9	reviewed	UL17C_HUMAN	Ubiquitin carboxyl-terminal hydrolase 17-like protein 12 (EC 3.4.19.12)	USP17L12	Homo sapiens (Human)	530
+C9JQV6	unreviewed	C9JQV6_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	291
+C9JVI0	reviewed	U17LB_HUMAN	Ubiquitin carboxyl-terminal hydrolase 17-like protein 11 (EC 3.4.19.12)	USP17L11	Homo sapiens (Human)	530
+D3DWY6	unreviewed	D3DWY6_HUMAN	Lys-63-specific deubiquitinase (EC 3.4.19.-)	BRCC3 hCG_2003099	Homo sapiens (Human)	258
+D3VVH9	unreviewed	D3VVH9_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	301
+D6R901	reviewed	U17LL_HUMAN	Ubiquitin carboxyl-terminal hydrolase 17-like protein 21 (EC 3.4.19.12)	USP17L21	Homo sapiens (Human)	530
+D6R956	unreviewed	D6R956_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	UCHL1	Homo sapiens (Human)	241
+D6R9N7	reviewed	U17LI_HUMAN	Ubiquitin carboxyl-terminal hydrolase 17-like protein 18 (EC 3.4.19.12)	USP17L18	Homo sapiens (Human)	530
+D6RA61	reviewed	U17LM_HUMAN	Ubiquitin carboxyl-terminal hydrolase 17-like protein 22 (EC 3.4.19.12)	USP17L22	Homo sapiens (Human)	530
+D6RBQ6	reviewed	U17LH_HUMAN	Ubiquitin carboxyl-terminal hydrolase 17-like protein 17 (EC 3.4.19.12)	USP17L17	Homo sapiens (Human)	530
+D6RCP7	reviewed	U17LJ_HUMAN	Ubiquitin carboxyl-terminal hydrolase 17-like protein 19 (EC 3.4.19.12)	USP17L19	Homo sapiens (Human)	530
+D6RE83	unreviewed	D6RE83_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	UCHL1	Homo sapiens (Human)	207
+D6RJB6	reviewed	U17LK_HUMAN	Ubiquitin carboxyl-terminal hydrolase 17-like protein 20 (EC 3.4.19.12)	USP17L20	Homo sapiens (Human)	530
+E9PEW0	unreviewed	E9PEW0_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP36	Homo sapiens (Human)	548
+F5H211	unreviewed	F5H211_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	370
+G3V2G1	unreviewed	G3V2G1_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	223
+G3V328	unreviewed	G3V328_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	260
+G3V3R7	unreviewed	G3V3R7_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	329
+G3V4U9	unreviewed	G3V4U9_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	278
+G5E9A6	unreviewed	G5E9A6_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP11 hCG_17279	Homo sapiens (Human)	920
+H0Y6Y4	unreviewed	H0Y6Y4_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	UCHL5	Homo sapiens (Human)	218
+H0YLB7	unreviewed	H0YLB7_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP3	Homo sapiens (Human)	431
+H0YMI4	unreviewed	H0YMI4_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP3	Homo sapiens (Human)	503
+H3BS09	unreviewed	H3BS09_HUMAN	Ubiquitin carboxyl-terminal hydrolase CYLD (Deubiquitinating enzyme CYLD) (Ubiquitin thioesterase CYLD) (Ubiquitin-specific-processing protease CYLD)	CYLD	Homo sapiens (Human)	771
+H7C189	unreviewed	H7C189_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP4	Homo sapiens (Human)	621
+J3KRR7	unreviewed	J3KRR7_HUMAN	Ubiquitin carboxyl-terminal hydrolase CYLD (Deubiquitinating enzyme CYLD) (Ubiquitin thioesterase CYLD) (Ubiquitin-specific-processing protease CYLD)	CYLD	Homo sapiens (Human)	910
+K7EQL6	unreviewed	K7EQL6_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	USP32	Homo sapiens (Human)	1274
+K7N7A8	unreviewed	K7N7A8_HUMAN	Ubiquitin carboxyl-terminal hydrolase MINDY (EC 3.4.19.12)		Homo sapiens (Human)	449
+P0C7H9	reviewed	U17L7_HUMAN	Inactive ubiquitin carboxyl-terminal hydrolase 17-like protein 7	USP17L7	Homo sapiens (Human)	530
+P0C7I0	reviewed	U17L8_HUMAN	Inactive ubiquitin carboxyl-terminal hydrolase 17-like protein 8	USP17L8	Homo sapiens (Human)	530
+Q3LFD5	reviewed	UBP41_HUMAN	Putative ubiquitin carboxyl-terminal hydrolase 41 (EC 3.4.19.12) (Deubiquitinating enzyme 41) (Ubiquitin thioesterase 41) (Ubiquitin-specific-processing protease 41)	USP41	Homo sapiens (Human)	358
+Q5LJA5	unreviewed	Q5LJA5_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	UCHL5	Homo sapiens (Human)	355
+Q5LJA9	unreviewed	Q5LJA9_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	UCHL5	Homo sapiens (Human)	368
+Q5LJB0	unreviewed	Q5LJB0_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	UCHL5	Homo sapiens (Human)	258
+Q6JHV3	unreviewed	Q6JHV3_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP3	Homo sapiens (Human)	498
+X6RJS7	unreviewed	X6RJS7_HUMAN	Lys-63-specific deubiquitinase (EC 3.4.19.-)	BRCC3	Homo sapiens (Human)	226
+A0A024QZ09	unreviewed	A0A024QZ09_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	OTUD5 hCG_19842	Homo sapiens (Human)	571
+A0A024R1P5	unreviewed	A0A024R1P5_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	JOSD1 hCG_41699	Homo sapiens (Human)	202
+A0A024R2T9	unreviewed	A0A024R2T9_HUMAN	Ubiquitin specific peptidase 19, isoform CRA_a	USP19 hCG_1779455	Homo sapiens (Human)	1318
+A0A024R416	unreviewed	A0A024R416_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP37 hCG_2043069	Homo sapiens (Human)	979
+A0A024R4G2	unreviewed	A0A024R4G2_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	JOSD2 hCG_1733571	Homo sapiens (Human)	188
+A0A024R5S4	unreviewed	A0A024R5S4_HUMAN	Ubiquitin specific peptidase 8, isoform CRA_a	USP8 hCG_38748	Homo sapiens (Human)	1118
+A0A024R8V6	unreviewed	A0A024R8V6_HUMAN	Ubiquitin specific peptidase 36, isoform CRA_b	USP36 hCG_95566	Homo sapiens (Human)	1123
+A0A024RBD7	unreviewed	A0A024RBD7_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP44 hCG_1642341	Homo sapiens (Human)	712
+A0A075B784	unreviewed	A0A075B784_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP36	Homo sapiens (Human)	716
+A0A087WTB8	unreviewed	A0A087WTB8_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	UCHL3 hCG_29571	Homo sapiens (Human)	194
+A0A087WTT9	unreviewed	A0A087WTT9_HUMAN	N-acetylglucosaminyldiphosphodolichol N-acetylglucosaminyltransferase (EC 2.4.1.141)	ALG13	Homo sapiens (Human)	171
+A0A087WWJ9	unreviewed	A0A087WWJ9_HUMAN	BRCA1-A complex subunit Abraxas 1 (Coiled-coil domain-containing protein 98) (Protein FAM175A)	ABRAXAS1	Homo sapiens (Human)	220
+A0A087WX43	unreviewed	A0A087WX43_HUMAN	N-acetylglucosaminyldiphosphodolichol N-acetylglucosaminyltransferase (EC 2.4.1.141)	ALG13	Homo sapiens (Human)	133
+A0A087X0W9	unreviewed	A0A087X0W9_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	OTUD6B hCG_32310	Homo sapiens (Human)	323
+A0A096LNJ4	unreviewed	A0A096LNJ4_HUMAN	N-acetylglucosaminyldiphosphodolichol N-acetylglucosaminyltransferase (EC 2.4.1.141)	ALG13	Homo sapiens (Human)	132
+A0A096LP10	unreviewed	A0A096LP10_HUMAN	N-acetylglucosaminyldiphosphodolichol N-acetylglucosaminyltransferase (EC 2.4.1.141)	ALG13	Homo sapiens (Human)	162
+A0A0A0MR08	unreviewed	A0A0A0MR08_HUMAN	Ubiquitin specific peptidase 19	USP19	Homo sapiens (Human)	1406
+A0A0A0MRS6	unreviewed	A0A0A0MRS6_HUMAN	Ubiquitin specific peptidase 48	USP48	Homo sapiens (Human)	521
+A0A0A6YZ17	unreviewed	A0A0A6YZ17_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)		Homo sapiens (Human)	863
+A0A0C4DG73	unreviewed	A0A0C4DG73_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP34	Homo sapiens (Human)	810
+A0A0S2Z605	unreviewed	A0A0S2Z605_HUMAN	Zinc finger-containing ubiquitin peptidase 1 (EC 3.4.19.12) (Lys-63-specific deubiquitinase ZUFSP) (Zinc finger with UFM1-specific peptidase domain protein)	ZUFSP	Homo sapiens (Human)	490
+A0A0S2Z623	unreviewed	A0A0S2Z623_HUMAN	Zinc finger-containing ubiquitin peptidase 1 (EC 3.4.19.12) (Lys-63-specific deubiquitinase ZUFSP) (Zinc finger with UFM1-specific peptidase domain protein)	ZUFSP	Homo sapiens (Human)	407
+A0A0S2Z644	unreviewed	A0A0S2Z644_HUMAN	Zinc finger-containing ubiquitin peptidase 1 (EC 3.4.19.12) (Lys-63-specific deubiquitinase ZUFSP) (Zinc finger with UFM1-specific peptidase domain protein)	ZUFSP C6orf113 hCG_21762	Homo sapiens (Human)	578
+A0A140VJZ4	unreviewed	A0A140VJZ4_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)		Homo sapiens (Human)	230
+A0A140VK54	unreviewed	A0A140VK54_HUMAN	Testicular secretory protein Li 54		Homo sapiens (Human)	424
+A0A1B0GVA6	unreviewed	A0A1B0GVA6_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP51	Homo sapiens (Human)	430
+A0A2R8Y3X7	unreviewed	A0A2R8Y3X7_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	351
+A0A384NY54	unreviewed	A0A384NY54_HUMAN	Ubiquitin carboxyl-terminal hydrolase MINDY (EC 3.4.19.12)		Homo sapiens (Human)	360
+A0A669KBL1	unreviewed	A0A669KBL1_HUMAN	Ubiquitin carboxyl-terminal hydrolase 7 (EC 3.4.19.12) (Ubiquitin thioesterase 7) (Ubiquitin-specific-processing protease 7)	USP7	Homo sapiens (Human)	1137
+A0A7G6J4N4	unreviewed	A0A7G6J4N4_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)		Homo sapiens (Human)	802
+A0A7P0TAP9	unreviewed	A0A7P0TAP9_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP13	Homo sapiens (Human)	862
+A0A7P0TB69	unreviewed	A0A7P0TB69_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP13	Homo sapiens (Human)	819
+A0A8I5KT08	unreviewed	A0A8I5KT08_HUMAN	Ubiquitin specific peptidase 19	USP19	Homo sapiens (Human)	1369
+A0A8I5KXK1	unreviewed	A0A8I5KXK1_HUMAN	Ubiquitin specific peptidase 19	USP19	Homo sapiens (Human)	1421
+A0A8Q3SIU3	unreviewed	A0A8Q3SIU3_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP21	Homo sapiens (Human)	412
+A1L447	unreviewed	A1L447_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP29	Homo sapiens (Human)	912
+A6NJA2	unreviewed	A6NJA2_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP14	Homo sapiens (Human)	448
+A6NLJ7	unreviewed	A6NLJ7_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	UCHL1 hCG_33087	Homo sapiens (Human)	142
+A8K912	unreviewed	A8K912_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)		Homo sapiens (Human)	913
+A8MYZ0	reviewed	MIY4B_HUMAN	Inactive ubiquitin carboxyl-terminal hydrolase MINDY-4B (Protein FAM188B2)	MINDY4B C3orf76 FAM188B2	Homo sapiens (Human)	460
+B0QY55	unreviewed	B0QY55_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	JOSD1	Homo sapiens (Human)	62
+B0QY56	unreviewed	B0QY56_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	JOSD1	Homo sapiens (Human)	123
+B0QY57	unreviewed	B0QY57_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	JOSD1	Homo sapiens (Human)	104
+B0QY58	unreviewed	B0QY58_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	JOSD1	Homo sapiens (Human)	61
+B2R636	unreviewed	B2R636_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)		Homo sapiens (Human)	785
+B2RB07	unreviewed	B2RB07_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)		Homo sapiens (Human)	329
+B2RD14	unreviewed	B2RD14_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)		Homo sapiens (Human)	223
+B2RD79	unreviewed	B2RD79_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)		Homo sapiens (Human)	494
+B3KMX7	unreviewed	B3KMX7_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)		Homo sapiens (Human)	356
+B3KP28	unreviewed	B3KP28_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)		Homo sapiens (Human)	689
+B3KPE1	unreviewed	B3KPE1_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)		Homo sapiens (Human)	586
+B3KRV9	unreviewed	B3KRV9_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)		Homo sapiens (Human)	526
+B3KTG4	unreviewed	B3KTG4_HUMAN	Ubiquitin carboxyl-terminal hydrolase 14 (EC 3.4.19.12) (Deubiquitinating enzyme 14) (Ubiquitin thioesterase 14) (Ubiquitin-specific-processing protease 14)		Homo sapiens (Human)	375
+B3KUS5	unreviewed	B3KUS5_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP30	Homo sapiens (Human)	486
+B4DGK3	unreviewed	B4DGK3_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP11 hCG_17279	Homo sapiens (Human)	690
+B4DM49	unreviewed	B4DM49_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)		Homo sapiens (Human)	621
+B4DM84	unreviewed	B4DM84_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)		Homo sapiens (Human)	779
+B4DPD5	unreviewed	B4DPD5_HUMAN	Ubiquitin thioesterase (EC 3.4.19.12)		Homo sapiens (Human)	308
+B4DUC6	unreviewed	B4DUC6_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)		Homo sapiens (Human)	565
+B4DW59	unreviewed	B4DW59_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)		Homo sapiens (Human)	192
+B4DYC7	unreviewed	B4DYC7_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)		Homo sapiens (Human)	355
+B4E3L3	unreviewed	B4E3L3_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP28	Homo sapiens (Human)	920
+B7Z7T5	unreviewed	B7Z7T5_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)		Homo sapiens (Human)	799
+B7Z842	unreviewed	B7Z842_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)		Homo sapiens (Human)	509
+B7Z855	unreviewed	B7Z855_HUMAN	Ubiquitin carboxyl-terminal hydrolase 7 (EC 3.4.19.12) (Ubiquitin thioesterase 7) (Ubiquitin-specific-processing protease 7)		Homo sapiens (Human)	1003
+B7Z9U9	unreviewed	B7Z9U9_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)		Homo sapiens (Human)	193
+B7ZAX6	unreviewed	B7ZAX6_HUMAN	Ubiquitin carboxyl-terminal hydrolase 7 (EC 3.4.19.12) (Ubiquitin thioesterase 7) (Ubiquitin-specific-processing protease 7)		Homo sapiens (Human)	1086
+B7ZKR8	unreviewed	B7ZKR8_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	USP48	Homo sapiens (Human)	983
+B7ZKS3	unreviewed	B7ZKS3_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	USP48	Homo sapiens (Human)	1035
+B9A018	unreviewed	B9A018_HUMAN	Ubiquitin specific peptidase 39	USP39	Homo sapiens (Human)	536
+C9J7L9	unreviewed	C9J7L9_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	BAP1	Homo sapiens (Human)	112
+D3DUG9	unreviewed	D3DUG9_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP14 hCG_1994849	Homo sapiens (Human)	468
+D3DV11	unreviewed	D3DV11_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	FAM63A hCG_1778763	Homo sapiens (Human)	327
+D3DWB6	unreviewed	D3DWB6_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	USP9X hCG_18381	Homo sapiens (Human)	2379
+D3TTY5	unreviewed	D3TTY5_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	TNFAIP3	Homo sapiens (Human)	669
+D3TTY8	unreviewed	D3TTY8_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	TNFAIP3	Homo sapiens (Human)	532
+D3TTY9	unreviewed	D3TTY9_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	TNFAIP3	Homo sapiens (Human)	471
+D3TTZ1	unreviewed	D3TTZ1_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	TNFAIP3	Homo sapiens (Human)	749
+D3TTZ2	unreviewed	D3TTZ2_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	TNFAIP3	Homo sapiens (Human)	750
+D3TTZ3	unreviewed	D3TTZ3_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	TNFAIP3	Homo sapiens (Human)	790
+D3TTZ4	unreviewed	D3TTZ4_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	TNFAIP3	Homo sapiens (Human)	790
+D3VVA7	unreviewed	D3VVA7_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	337
+D3VVA8	unreviewed	D3VVA8_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	338
+D3VVA9	unreviewed	D3VVA9_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	337
+D3VVB0	unreviewed	D3VVB0_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	288
+D3VVB1	unreviewed	D3VVB1_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	287
+D3VVB2	unreviewed	D3VVB2_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	287
+D3VVB3	unreviewed	D3VVB3_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	341
+D3VVB4	unreviewed	D3VVB4_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	306
+D3VVB5	unreviewed	D3VVB5_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	338
+D3VVB6	unreviewed	D3VVB6_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	283
+D3VVB8	unreviewed	D3VVB8_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	173
+D3VVB9	unreviewed	D3VVB9_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	338
+D3VVC0	unreviewed	D3VVC0_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	283
+D3VVC1	unreviewed	D3VVC1_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	32
+D3VVC2	unreviewed	D3VVC2_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	301
+D3VVC3	unreviewed	D3VVC3_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	144
+D3VVC4	unreviewed	D3VVC4_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	323
+D3VVC5	unreviewed	D3VVC5_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	287
+D3VVC6	unreviewed	D3VVC6_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	338
+D3VVC7	unreviewed	D3VVC7_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	322
+D3VVC8	unreviewed	D3VVC8_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	81
+D3VVC9	unreviewed	D3VVC9_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	285
+D3VVD0	unreviewed	D3VVD0_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	287
+D3VVD1	unreviewed	D3VVD1_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	341
+D3VVD2	unreviewed	D3VVD2_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	342
+D3VVD3	unreviewed	D3VVD3_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	342
+D3VVD4	unreviewed	D3VVD4_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	229
+D3VVD5	unreviewed	D3VVD5_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	61
+D3VVD6	unreviewed	D3VVD6_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	335
+D3VVD7	unreviewed	D3VVD7_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	336
+D3VVD8	unreviewed	D3VVD8_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	336
+D3VVD9	unreviewed	D3VVD9_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	265
+D3VVE0	unreviewed	D3VVE0_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	301
+D3VVE1	unreviewed	D3VVE1_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	301
+D3VVE2	unreviewed	D3VVE2_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	338
+D3VVE3	unreviewed	D3VVE3_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	290
+D3VVE4	unreviewed	D3VVE4_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	301
+D3VVE5	unreviewed	D3VVE5_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	289
+D3VVE6	unreviewed	D3VVE6_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	308
+D3VVE7	unreviewed	D3VVE7_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	91
+D3VVE8	unreviewed	D3VVE8_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	208
+D3VVE9	unreviewed	D3VVE9_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	339
+D3VVF0	unreviewed	D3VVF0_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	329
+D3VVF1	unreviewed	D3VVF1_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	88
+D3VVF2	unreviewed	D3VVF2_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	79
+D3VVF3	unreviewed	D3VVF3_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	330
+D3VVF4	unreviewed	D3VVF4_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	338
+D3VVF5	unreviewed	D3VVF5_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	336
+D3VVF6	unreviewed	D3VVF6_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	344
+D3VVF7	unreviewed	D3VVF7_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	286
+D3VVF8	unreviewed	D3VVF8_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	301
+D3VVF9	unreviewed	D3VVF9_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	342
+D3VVG0	unreviewed	D3VVG0_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	345
+D3VVG1	unreviewed	D3VVG1_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	289
+D3VVG2	unreviewed	D3VVG2_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	301
+D3VVG3	unreviewed	D3VVG3_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	18
+D3VVG4	unreviewed	D3VVG4_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	345
+D3VVG5	unreviewed	D3VVG5_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	337
+D3VVG6	unreviewed	D3VVG6_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	81
+D3VVG7	unreviewed	D3VVG7_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	335
+D3VVG8	unreviewed	D3VVG8_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	336
+D3VVG9	unreviewed	D3VVG9_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	326
+D3VVH0	unreviewed	D3VVH0_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	286
+D3VVH1	unreviewed	D3VVH1_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	301
+D3VVH2	unreviewed	D3VVH2_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	335
+D3VVH4	unreviewed	D3VVH4_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	388
+D3VVH5	unreviewed	D3VVH5_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	316
+D3VVH6	unreviewed	D3VVH6_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	250
+D3VVH7	unreviewed	D3VVH7_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	336
+D3VVH8	unreviewed	D3VVH8_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	335
+D3VVI0	unreviewed	D3VVI0_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	259
+D3VVI1	unreviewed	D3VVI1_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	208
+D3VVI2	unreviewed	D3VVI2_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	381
+D3VVI3	unreviewed	D3VVI3_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	329
+D3VVI4	unreviewed	D3VVI4_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	208
+D3VVI5	unreviewed	D3VVI5_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	382
+D3VVI7	unreviewed	D3VVI7_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	170
+D3VVI8	unreviewed	D3VVI8_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	334
+D3VVI9	unreviewed	D3VVI9_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	335
+D3VVJ0	unreviewed	D3VVJ0_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	151
+D3VVJ1	unreviewed	D3VVJ1_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	328
+D3VVJ2	unreviewed	D3VVJ2_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	335
+D3VVJ3	unreviewed	D3VVJ3_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	341
+D3VVJ4	unreviewed	D3VVJ4_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	319
+D3VVJ5	unreviewed	D3VVJ5_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	290
+D3VVJ6	unreviewed	D3VVJ6_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	286
+D3VVJ7	unreviewed	D3VVJ7_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	341
+D3VVJ8	unreviewed	D3VVJ8_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	275
+D3VVJ9	unreviewed	D3VVJ9_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	387
+D3VVK0	unreviewed	D3VVK0_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	342
+D3VVK1	unreviewed	D3VVK1_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	287
+D3VVK2	unreviewed	D3VVK2_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	342
+D3VVK3	unreviewed	D3VVK3_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	274
+D3VVK4	unreviewed	D3VVK4_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	221
+D3VVK5	unreviewed	D3VVK5_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	329
+D3VVK6	unreviewed	D3VVK6_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	106
+D3VVK7	unreviewed	D3VVK7_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	395
+D3VVK8	unreviewed	D3VVK8_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	329
+D3VVK9	unreviewed	D3VVK9_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	161
+D3VVL0	unreviewed	D3VVL0_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	329
+D3VVL1	unreviewed	D3VVL1_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	289
+D3VVL2	unreviewed	D3VVL2_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	289
+D3VVL3	unreviewed	D3VVL3_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	282
+D3VVL4	unreviewed	D3VVL4_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	381
+D3VVL5	unreviewed	D3VVL5_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	384
+D3VVL6	unreviewed	D3VVL6_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	285
+D3VVL7	unreviewed	D3VVL7_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	340
+D3VVL8	unreviewed	D3VVL8_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	339
+D3VVL9	unreviewed	D3VVL9_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	338
+D3VVM0	unreviewed	D3VVM0_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	212
+D3VVM1	unreviewed	D3VVM1_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	212
+D3VVM2	unreviewed	D3VVM2_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	222
+D3VVM3	unreviewed	D3VVM3_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	329
+D3VVM4	unreviewed	D3VVM4_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	386
+D3VVM5	unreviewed	D3VVM5_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	307
+D3VVM6	unreviewed	D3VVM6_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	278
+D3VVM7	unreviewed	D3VVM7_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	329
+D3VVM8	unreviewed	D3VVM8_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	208
+D3VVM9	unreviewed	D3VVM9_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	301
+D3VVN0	unreviewed	D3VVN0_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	344
+D3VVN1	unreviewed	D3VVN1_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	343
+D3VVN2	unreviewed	D3VVN2_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	378
+D3VVN3	unreviewed	D3VVN3_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	238
+D3VVN4	unreviewed	D3VVN4_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	314
+D3VVN5	unreviewed	D3VVN5_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	387
+D3VVN6	unreviewed	D3VVN6_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	329
+D3VVN7	unreviewed	D3VVN7_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	329
+D3VVN8	unreviewed	D3VVN8_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	139
+D3VVN9	unreviewed	D3VVN9_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	271
+D3VVP0	unreviewed	D3VVP0_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	338
+D3VVP1	unreviewed	D3VVP1_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	287
+D3VVP2	unreviewed	D3VVP2_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	337
+D3VVP3	unreviewed	D3VVP3_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	79
+D3VVP4	unreviewed	D3VVP4_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	232
+D3VVP5	unreviewed	D3VVP5_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	395
+D3VVP6	unreviewed	D3VVP6_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	338
+D3VVP7	unreviewed	D3VVP7_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	338
+D3VVP8	unreviewed	D3VVP8_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	272
+D3VVP9	unreviewed	D3VVP9_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	325
+D3VVQ0	unreviewed	D3VVQ0_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	286
+D3VVQ1	unreviewed	D3VVQ1_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	286
+D3VVQ2	unreviewed	D3VVQ2_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	341
+D3VVQ3	unreviewed	D3VVQ3_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	286
+D3VVQ4	unreviewed	D3VVQ4_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	287
+D3VVQ5	unreviewed	D3VVQ5_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	287
+D3VVQ6	unreviewed	D3VVQ6_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	286
+D3VVQ7	unreviewed	D3VVQ7_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	231
+D3VVQ8	unreviewed	D3VVQ8_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	286
+D3VVQ9	unreviewed	D3VVQ9_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	337
+D3VVR0	unreviewed	D3VVR0_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	216
+D3VVR2	unreviewed	D3VVR2_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	336
+D3VVR3	unreviewed	D3VVR3_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	290
+D3VVR4	unreviewed	D3VVR4_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	289
+D3VVR5	unreviewed	D3VVR5_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	278
+D3VVR6	unreviewed	D3VVR6_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	383
+D3VVR7	unreviewed	D3VVR7_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	332
+D3VVR8	unreviewed	D3VVR8_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	218
+D3VVR9	unreviewed	D3VVR9_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	337
+D3VVS0	unreviewed	D3VVS0_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	332
+D3VVS1	unreviewed	D3VVS1_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	387
+D3VVS2	unreviewed	D3VVS2_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	287
+D3VVS3	unreviewed	D3VVS3_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	283
+D3VVS4	unreviewed	D3VVS4_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	136
+D3VVS5	unreviewed	D3VVS5_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	217
+D3VVS6	unreviewed	D3VVS6_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	139
+D3VVS7	unreviewed	D3VVS7_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	318
+D3VVS8	unreviewed	D3VVS8_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	336
+D3VVS9	unreviewed	D3VVS9_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	336
+D3VVT0	unreviewed	D3VVT0_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	381
+D3VVT1	unreviewed	D3VVT1_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	261
+D3VVT2	unreviewed	D3VVT2_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	179
+D3VVT4	unreviewed	D3VVT4_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	336
+D3VVT5	unreviewed	D3VVT5_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	335
+D3VVT6	unreviewed	D3VVT6_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	336
+D6R974	unreviewed	D6R974_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	UCHL1	Homo sapiens (Human)	156
+D6R9I5	unreviewed	D6R9I5_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	99
+D6RBM5	reviewed	U17LN_HUMAN	Putative ubiquitin carboxyl-terminal hydrolase 17-like protein 23	USP17L23	Homo sapiens (Human)	183
+D6RBV3	unreviewed	D6RBV3_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	USP45 hCG_17265	Homo sapiens (Human)	289
+D6RC01	unreviewed	D6RC01_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	USP45	Homo sapiens (Human)	345
+D6RE84	unreviewed	D6RE84_HUMAN	N-acetylglucosaminyldiphosphodolichol N-acetylglucosaminyltransferase (EC 2.4.1.141)	ALG13	Homo sapiens (Human)	159
+D6REL5	unreviewed	D6REL5_HUMAN	BRCA1-A complex subunit Abraxas 1 (Coiled-coil domain-containing protein 98) (Protein FAM175A)	ABRAXAS1	Homo sapiens (Human)	360
+D6RF53	unreviewed	D6RF53_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	UCHL1	Homo sapiens (Human)	58
+D6RI06	unreviewed	D6RI06_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	OTUD4	Homo sapiens (Human)	372
+E2QRF0	unreviewed	E2QRF0_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP45	Homo sapiens (Human)	766
+E9PJH5	unreviewed	E9PJH5_HUMAN	Ubiquitin specific peptidase 48	USP48	Homo sapiens (Human)	135
+E9PJN5	unreviewed	E9PJN5_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	205
+E9PK78	unreviewed	E9PK78_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP35	Homo sapiens (Human)	586
+E9PQP0	unreviewed	E9PQP0_HUMAN	Ubiquitin specific peptidase 33	USP33	Homo sapiens (Human)	202
+F5GYJ8	unreviewed	F5GYJ8_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	OTUB1	Homo sapiens (Human)	286
+F5GYN4	unreviewed	F5GYN4_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	OTUB1	Homo sapiens (Human)	241
+F5H2X1	unreviewed	F5H2X1_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP7	Homo sapiens (Human)	509
+F5H5B9	unreviewed	F5H5B9_HUMAN	STAM binding protein	STAMBP	Homo sapiens (Human)	380
+F5H6Q1	unreviewed	F5H6Q1_HUMAN	Ubiquitin thioesterase (EC 3.4.19.12)	OTUB1	Homo sapiens (Human)	280
+F8VRI7	unreviewed	F8VRI7_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	USP44	Homo sapiens (Human)	496
+F8W6N3	unreviewed	F8W6N3_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	BAP1	Homo sapiens (Human)	711
+F8WEY5	unreviewed	F8WEY5_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	BAP1	Homo sapiens (Human)	41
+G3V390	unreviewed	G3V390_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	110
+G3V3A6	unreviewed	G3V3A6_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	78
+G3V3S5	unreviewed	G3V3S5_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	114
+G3V3T0	unreviewed	G3V3T0_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	95
+G3V4B1	unreviewed	G3V4B1_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	110
+G3V4F4	unreviewed	G3V4F4_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	159
+G3V4F5	unreviewed	G3V4F5_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	150
+G3V526	unreviewed	G3V526_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	200
+G3V5H3	unreviewed	G3V5H3_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	161
+H0Y4E0	unreviewed	H0Y4E0_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	UCHL5	Homo sapiens (Human)	183
+H0Y8J5	unreviewed	H0Y8J5_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	USP45	Homo sapiens (Human)	209
+H0YCV3	unreviewed	H0YCV3_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	USP33	Homo sapiens (Human)	456
+H0YGT9	unreviewed	H0YGT9_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	JOSD1	Homo sapiens (Human)	154
+H0YKU8	unreviewed	H0YKU8_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP3	Homo sapiens (Human)	443
+H0YLG0	unreviewed	H0YLG0_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	USP3	Homo sapiens (Human)	133
+H0YM15	unreviewed	H0YM15_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	MINDY2 FAM63B hCG_40045	Homo sapiens (Human)	379
+H3BND8	unreviewed	H3BND8_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP7	Homo sapiens (Human)	909
+H7BZQ3	unreviewed	H7BZQ3_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	OTUD5	Homo sapiens (Human)	444
+H7C183	unreviewed	H7C183_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	USP34	Homo sapiens (Human)	1223
+J3KNL7	unreviewed	J3KNL7_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	MINDY2 FAM63B hCG_40045	Homo sapiens (Human)	422
+J3KRK5	unreviewed	J3KRK5_HUMAN	Serine hydroxymethyltransferase 1	SHMT1	Homo sapiens (Human)	128
+K7EKZ1	unreviewed	K7EKZ1_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	USP32	Homo sapiens (Human)	847
+K7ERX6	unreviewed	K7ERX6_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	USP22	Homo sapiens (Human)	125
+K7ESK0	unreviewed	K7ESK0_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	USP22	Homo sapiens (Human)	107
+M0QZL8	unreviewed	M0QZL8_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	JOSD2	Homo sapiens (Human)	161
+Q08AK7	unreviewed	Q08AK7_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP4	Homo sapiens (Human)	963
+Q3LIB2	unreviewed	Q3LIB2_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	Nbla00402	Homo sapiens (Human)	298
+Q495F8	unreviewed	Q495F8_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP26	Homo sapiens (Human)	913
+Q498Y2	unreviewed	Q498Y2_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	USP3	Homo sapiens (Human)	393
+Q4VBR4	unreviewed	Q4VBR4_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	370
+Q53FJ3	unreviewed	Q53FJ3_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)		Homo sapiens (Human)	963
+Q53H56	unreviewed	Q53H56_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)		Homo sapiens (Human)	916
+Q5SZ59	unreviewed	Q5SZ59_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	OTUD7B RP11-212K13.2-003	Homo sapiens (Human)	427
+Q5T3E1	unreviewed	Q5T3E1_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	USP49	Homo sapiens (Human)	585
+Q659F9	unreviewed	Q659F9_HUMAN	Ubiquitin thioesterase (EC 3.4.19.12)	DKFZp564E242	Homo sapiens (Human)	272
+Q6IB81	unreviewed	Q6IB81_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	KIAA0063	Homo sapiens (Human)	202
+Q6P453	unreviewed	Q6P453_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	USP11	Homo sapiens (Human)	923
+Q6U8A4	unreviewed	Q6U8A4_HUMAN	Ubiquitin carboxyl-terminal hydrolase 7 (EC 3.4.19.12) (Ubiquitin thioesterase 7) (Ubiquitin-specific-processing protease 7)		Homo sapiens (Human)	1112
+Q7Z7N5	unreviewed	Q7Z7N5_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	JOSD2	Homo sapiens (Human)	208
+Q86W68	unreviewed	Q86W68_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	USP37	Homo sapiens (Human)	302
+Q96B65	unreviewed	Q96B65_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	USP25	Homo sapiens (Human)	450
+Q9H9C5	unreviewed	Q9H9C5_HUMAN	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)	DUB1	Homo sapiens (Human)	548
+S4R399	unreviewed	S4R399_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	ATXN3	Homo sapiens (Human)	202
+X6R9S5	unreviewed	X6R9S5_HUMAN	Ubiquitin carboxyl-terminal hydrolase MINDY (EC 3.4.19.12)	MINDY3	Homo sapiens (Human)	150
+X6RC30	unreviewed	X6RC30_HUMAN	Ubiquitin carboxyl-terminal hydrolase MINDY (EC 3.4.19.12)	MINDY3	Homo sapiens (Human)	182
+X6RC97	unreviewed	X6RC97_HUMAN	Ubiquitin carboxyl-terminal hydrolase MINDY (EC 3.4.19.12)	MINDY3	Homo sapiens (Human)	164
+A0A024R5P6	unreviewed	A0A024R5P6_HUMAN	Chromosome 1 open reading frame 121, isoform CRA_b	C1orf121 hCG_1983804	Homo sapiens (Human)	194
+A0A024R5P9	unreviewed	A0A024R5P9_HUMAN	Chromosome 1 open reading frame 121, isoform CRA_a	C1orf121 hCG_1983804	Homo sapiens (Human)	161
+A0A087WXV9	unreviewed	A0A087WXV9_HUMAN	Ubiquitin specific peptidase 31	USP31	Homo sapiens (Human)	266
+A0A087X0L6	unreviewed	A0A087X0L6_HUMAN	Ubiquitin specific peptidase 50	USP50	Homo sapiens (Human)	343
+A0A087X1B2	unreviewed	A0A087X1B2_HUMAN	Ubiquitin specific peptidase 39	USP39	Homo sapiens (Human)	487
+A0A096LNL2	unreviewed	A0A096LNL2_HUMAN	N-acetylglucosaminyldiphosphodolichol N-acetylglucosaminyltransferase (EC 2.4.1.141)	ALG13	Homo sapiens (Human)	150
+A0A0A0MS96	unreviewed	A0A0A0MS96_HUMAN	BRCA1/BRCA2-containing complex subunit 3	BRCC3	Homo sapiens (Human)	90
+A0A0C4DH76	unreviewed	A0A0C4DH76_HUMAN	OTU deubiquitinase 6B	OTUD6B	Homo sapiens (Human)	108
+A0A126LAX2	unreviewed	A0A126LAX2_HUMAN	Large tegument protein	U31	Homo sapiens (Human)	2077
+A0A1B0GVW6	unreviewed	A0A1B0GVW6_HUMAN	ALG13 UDP-N-acetylglucosaminyltransferase subunit	ALG13	Homo sapiens (Human)	296
+A0A346RV25	unreviewed	A0A346RV25_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	BAP1	Homo sapiens (Human)	40
+A0A4V1DYV2	unreviewed	A0A4V1DYV2_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	BAP1	Homo sapiens (Human)	40
+A0A590UJW2	unreviewed	A0A590UJW2_HUMAN	Myb like, SWIRM and MPN domains 1	MYSM1	Homo sapiens (Human)	573
+A0A590UK03	unreviewed	A0A590UK03_HUMAN	Ubiquitin specific peptidase 19	USP19	Homo sapiens (Human)	1185
+A0A590UK32	unreviewed	A0A590UK32_HUMAN	Myb like, SWIRM and MPN domains 1	MYSM1	Homo sapiens (Human)	526
+A0A669KB43	unreviewed	A0A669KB43_HUMAN	Ubiquitin specific peptidase 50	USP50	Homo sapiens (Human)	93
+A0A7I2YQ75	unreviewed	A0A7I2YQ75_HUMAN	Ubiquitin specific peptidase 40 (Ubiquitin specific peptidase 40, isoform CRA_b)	USP40 hCG_22796	Homo sapiens (Human)	1236
+A0A7P0T849	unreviewed	A0A7P0T849_HUMAN	Ubiquitin specific peptidase 13	USP13	Homo sapiens (Human)	63
+A0A7P0T863	unreviewed	A0A7P0T863_HUMAN	Ubiquitin specific peptidase 13	USP13	Homo sapiens (Human)	76
+A0A7P0T8B2	unreviewed	A0A7P0T8B2_HUMAN	Ubiquitin specific peptidase 13	USP13	Homo sapiens (Human)	40
+A0A7P0T9K1	unreviewed	A0A7P0T9K1_HUMAN	Ubiquitin specific peptidase 54 (Ubiquitin specific peptidase 54, isoform CRA_b)	USP54 hCG_1730077	Homo sapiens (Human)	1637
+A0A7P0T9N2	unreviewed	A0A7P0T9N2_HUMAN	Ubiquitin specific peptidase 54	USP54	Homo sapiens (Human)	1413
+A0A7P0TAJ4	unreviewed	A0A7P0TAJ4_HUMAN	Ubiquitin specific peptidase 13	USP13	Homo sapiens (Human)	80
+A0A804D9U3	unreviewed	A0A804D9U3_HUMAN	Ubiquitin specific peptidase 54	USP54	Homo sapiens (Human)	837
+A0A804HHU9	unreviewed	A0A804HHU9_HUMAN	STAM binding protein	STAMBP	Homo sapiens (Human)	421
+A0A804HHV2	unreviewed	A0A804HHV2_HUMAN	STAM binding protein	STAMBP	Homo sapiens (Human)	394
+A0A804HII8	unreviewed	A0A804HII8_HUMAN	STAM binding protein	STAMBP	Homo sapiens (Human)	410
+A0A804HIJ2	unreviewed	A0A804HIJ2_HUMAN	STAM binding protein	STAMBP	Homo sapiens (Human)	421
+A0A804HIS3	unreviewed	A0A804HIS3_HUMAN	Ubiquitin specific peptidase 38	USP38	Homo sapiens (Human)	511
+A0A804HIT0	unreviewed	A0A804HIT0_HUMAN	Ubiquitin specific peptidase 38	USP38	Homo sapiens (Human)	1008
+A0A804HJ64	unreviewed	A0A804HJ64_HUMAN	STAM binding protein	STAMBP	Homo sapiens (Human)	289
+A0A804HJC8	unreviewed	A0A804HJC8_HUMAN	STAM binding protein	STAMBP	Homo sapiens (Human)	435
+A0A804HJS0	unreviewed	A0A804HJS0_HUMAN	STAM binding protein	STAMBP	Homo sapiens (Human)	423
+A0A804HKA6	unreviewed	A0A804HKA6_HUMAN	STAM binding protein	STAMBP	Homo sapiens (Human)	424
+A0A804HL27	unreviewed	A0A804HL27_HUMAN	STAM binding protein	STAMBP	Homo sapiens (Human)	428
+A0A8A0R1R6	unreviewed	A0A8A0R1R6_HUMAN	KMT2A-USP2 fusion protein		Homo sapiens (Human)	139
+A0A8I5KNN9	unreviewed	A0A8I5KNN9_HUMAN	Ubiquitin specific peptidase 54	USP54	Homo sapiens (Human)	819
+A0A8I5KRW4	unreviewed	A0A8I5KRW4_HUMAN	Ubiquitin specific peptidase 19	USP19	Homo sapiens (Human)	1191
+A0A8I5KT61	unreviewed	A0A8I5KT61_HUMAN	Ubiquitin specific peptidase 53	USP53	Homo sapiens (Human)	768
+A0A8I5KTP4	unreviewed	A0A8I5KTP4_HUMAN	Ubiquitin specific peptidase 54	USP54	Homo sapiens (Human)	1644
+A0A8I5KV50	unreviewed	A0A8I5KV50_HUMAN	Ubiquitin specific peptidase 19	USP19	Homo sapiens (Human)	1270
+A0A8I5KYV7	unreviewed	A0A8I5KYV7_HUMAN	Ubiquitin specific peptidase 54	USP54	Homo sapiens (Human)	797
+A0A8I5KYW2	unreviewed	A0A8I5KYW2_HUMAN	Ubiquitin specific peptidase 54	USP54	Homo sapiens (Human)	740
+A0A8I5QJW4	unreviewed	A0A8I5QJW4_HUMAN	Ubiquitin specific peptidase 36	USP36	Homo sapiens (Human)	158
+A0A8J9FKG6	unreviewed	A0A8J9FKG6_HUMAN	Ubiquitin specific peptidase 53	USP53	Homo sapiens (Human)	800
+A0A8V8TKZ0	unreviewed	A0A8V8TKZ0_HUMAN	OTU deubiquitinase with linear linkage specificity	OTULIN	Homo sapiens (Human)	73
+A2RRA6	unreviewed	A2RRA6_HUMAN	USP35 protein	USP35	Homo sapiens (Human)	604
+A4D2N6	unreviewed	A4D2N6_HUMAN	Ubiquitin specific protease 42	USP42 tcag7.880	Homo sapiens (Human)	1350
+A4D2N7	unreviewed	A4D2N7_HUMAN	Ubiquitin specific protease 42	USP42 tcag7.880	Homo sapiens (Human)	1246
+A4UCT4	unreviewed	A4UCT4_HUMAN	USP19 protein		Homo sapiens (Human)	139
+A5PL36	unreviewed	A5PL36_HUMAN	USP19 protein	USP19	Homo sapiens (Human)	1449
+A8K8N5	unreviewed	A8K8N5_HUMAN	cDNA FLJ76940, highly similar to Homo sapiens ubiquitin specific peptidase 8 (USP8), mRNA		Homo sapiens (Human)	1118
+B3KMG1	unreviewed	B3KMG1_HUMAN	cDNA FLJ10910 fis, clone OVARC1000139, highly similar to U4/U6.U5 tri-snRNP-associated protein 2		Homo sapiens (Human)	296
+B3KMW2	unreviewed	B3KMW2_HUMAN	cDNA FLJ12778 fis, clone NT2RP2001740, moderately similar to Ubiquitin carboxyl-terminal hydrolase 36		Homo sapiens (Human)	726
+B3KNA9	unreviewed	B3KNA9_HUMAN	cDNA FLJ14150 fis, clone MAMMA1003026, highly similar to Probable ubiquitin carboxyl-terminal hydrolase CYLD (EC 3.1.2.15)		Homo sapiens (Human)	476
+B3KPG7	unreviewed	B3KPG7_HUMAN	Ubiquitin specific peptidase 39, isoform CRA_b (cDNA FLJ31772 fis, clone NT2RI2008007, highly similar to U4/U6.U5 tri-snRNP-associated protein 2)	USP39 hCG_34614	Homo sapiens (Human)	296
+B3KR00	unreviewed	B3KR00_HUMAN	cDNA FLJ33359 fis, clone BRACE2005243, highly similar to AMSH-like protease		Homo sapiens (Human)	270
+B3KRK3	unreviewed	B3KRK3_HUMAN	cDNA FLJ34456 fis, clone HLUNG2002659, highly similar to Ubiquitin carboxyl-terminal hydrolase 8 (EC3.1.2.15)		Homo sapiens (Human)	285
+B3KS69	unreviewed	B3KS69_HUMAN	cDNA FLJ35627 fis, clone SPLEN2011139, highly similar to AMSH-like protease		Homo sapiens (Human)	436
+B3KUV5	unreviewed	B3KUV5_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)		Homo sapiens (Human)	315
+B4DDR4	unreviewed	B4DDR4_HUMAN	cDNA FLJ53024, highly similar to Ubiquitin carboxyl-terminal hydrolase 10		Homo sapiens (Human)	229
+B4DHI0	unreviewed	B4DHI0_HUMAN	cDNA FLJ56772, highly similar to Ubiquitin carboxyl-terminal hydrolase 40		Homo sapiens (Human)	330
+B4DN46	unreviewed	B4DN46_HUMAN	cDNA FLJ58918, highly similar to Ubiquitin carboxyl-terminal hydrolase 15		Homo sapiens (Human)	122
+B4DP25	unreviewed	B4DP25_HUMAN	Ubiquitin specific peptidase 42 (cDNA FLJ53014, highly similar to Ubiquitin carboxyl-terminal hydrolase 42)	USP42	Homo sapiens (Human)	174
+B4DUS4	unreviewed	B4DUS4_HUMAN	cDNA FLJ57202, highly similar to Ubiquitin carboxyl-terminal hydrolase 16		Homo sapiens (Human)	452
+B4DVE8	unreviewed	B4DVE8_HUMAN	cDNA FLJ51334, highly similar to Ubiquitin carboxyl-terminal hydrolase 35		Homo sapiens (Human)	450
+B4DWG7	unreviewed	B4DWG7_HUMAN	cDNA FLJ55451, highly similar to Ubiquitin carboxyl-terminal hydrolase 42 (EC3.1.2.15)		Homo sapiens (Human)	1044
+B4DWJ6	unreviewed	B4DWJ6_HUMAN	cDNA FLJ60359, highly similar to Ubiquitin carboxyl-terminal hydrolase 3		Homo sapiens (Human)	271
+B4E053	unreviewed	B4E053_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)		Homo sapiens (Human)	280
+B4E0P3	unreviewed	B4E0P3_HUMAN	cDNA FLJ59031, highly similar to Ubl carboxyl-terminal hydrolase 18		Homo sapiens (Human)	243
+B4E2Q2	unreviewed	B4E2Q2_HUMAN	cDNA FLJ61554, highly similar to Ubiquitin carboxyl-terminal hydrolase 28		Homo sapiens (Human)	259
+B7Z3J0	unreviewed	B7Z3J0_HUMAN	cDNA FLJ55073, highly similar to Ubiquitin carboxyl-terminal hydrolase 15		Homo sapiens (Human)	150
+B7Z7C2	unreviewed	B7Z7C2_HUMAN	cDNA FLJ52449, highly similar to Ubiquitin carboxyl-terminal hydrolase 2		Homo sapiens (Human)	328
+B7Z7L9	unreviewed	B7Z7L9_HUMAN	cDNA FLJ56173, highly similar to U4/U6.U5 tri-snRNP-associated protein 2		Homo sapiens (Human)	487
+B7Z7X1	unreviewed	B7Z7X1_HUMAN	cDNA FLJ58710, highly similar to Rattus norvegicus ubiquitin specific protease 54 (Usp54), mRNA		Homo sapiens (Human)	744
+B9A6N0	unreviewed	B9A6N0_HUMAN	HCG1991532, isoform CRA_a (Ubiquitin specific peptidase 6-short)	USP6-short hCG_1991532	Homo sapiens (Human)	786
+C9JC88	unreviewed	C9JC88_HUMAN	Ubiquitin specific peptidase 1	USP1	Homo sapiens (Human)	186
+C9JK14	unreviewed	C9JK14_HUMAN	Ubiquitin specific peptidase 40	USP40	Homo sapiens (Human)	98
+C9JNU9	unreviewed	C9JNU9_HUMAN	Ubiquitin specific peptidase 4	USP4	Homo sapiens (Human)	363
+C9JPC9	unreviewed	C9JPC9_HUMAN	Ubiquitin specific peptidase 42	USP42	Homo sapiens (Human)	1043
+D3TTY6	unreviewed	D3TTY6_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	TNFAIP3	Homo sapiens (Human)	316
+D3TTY7	unreviewed	D3TTY7_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	TNFAIP3	Homo sapiens (Human)	152
+D3TTZ0	unreviewed	D3TTZ0_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	TNFAIP3	Homo sapiens (Human)	270
+D3TTZ5	unreviewed	D3TTZ5_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	TNFAIP3	Homo sapiens (Human)	167
+D3TTZ6	unreviewed	D3TTZ6_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	TNFAIP3	Homo sapiens (Human)	224
+D3TTZ8	unreviewed	D3TTZ8_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	TNFAIP3	Homo sapiens (Human)	252
+D3VVH3	unreviewed	D3VVH3_HUMAN	Ataxin 3 variant an	ATXN3	Homo sapiens (Human)	178
+D6RA27	unreviewed	D6RA27_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	OTUD4	Homo sapiens (Human)	139
+D6RD57	unreviewed	D6RD57_HUMAN	OTU deubiquitinase with linear linkage specificity	OTULIN	Homo sapiens (Human)	58
+D6RF54	unreviewed	D6RF54_HUMAN	Ubiquitin specific peptidase 53	USP53	Homo sapiens (Human)	327
+E5RJP3	unreviewed	E5RJP3_HUMAN	Ubiquitin specific peptidase 42	USP42	Homo sapiens (Human)	219
+E7ESU0	unreviewed	E7ESU0_HUMAN	Ubiquitin carboxyl-terminal hydrolase 19	USP19	Homo sapiens (Human)	1180
+E7EWZ4	unreviewed	E7EWZ4_HUMAN	Ubiquitin specific peptidase 42	USP42	Homo sapiens (Human)	475
+E9PRM2	unreviewed	E9PRM2_HUMAN	Ubiquitin specific peptidase 35	USP35	Homo sapiens (Human)	298
+F5GXG2	unreviewed	F5GXG2_HUMAN	Ubiquitin specific peptidase 30	USP30	Homo sapiens (Human)	95
+F5GZ74	unreviewed	F5GZ74_HUMAN	Ubiquitin specific peptidase 28	USP28	Homo sapiens (Human)	194
+F5H3F0	unreviewed	F5H3F0_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	OTUB1	Homo sapiens (Human)	170
+F5H4F3	unreviewed	F5H4F3_HUMAN	OTU deubiquitinase, ubiquitin aldehyde binding 1	OTUB1	Homo sapiens (Human)	102
+F5H747	unreviewed	F5H747_HUMAN	Ubiquitin C	UBC	Homo sapiens (Human)	160
+F5H8D3	unreviewed	F5H8D3_HUMAN	Ubiquitin specific peptidase 30	USP30	Homo sapiens (Human)	177
+F8VZG8	unreviewed	F8VZG8_HUMAN	Ubiquitin specific peptidase 15	USP15	Homo sapiens (Human)	139
+F8W0H4	unreviewed	F8W0H4_HUMAN	Ubiquitin specific peptidase 15	USP15	Homo sapiens (Human)	175
+G3V1N5	unreviewed	G3V1N5_HUMAN	Ubiquitin specific peptidase 28 (Ubiquitin specific peptidase 28, isoform CRA_c)	USP28 hCG_39594	Homo sapiens (Human)	753
+H0Y8Q0	unreviewed	H0Y8Q0_HUMAN	Ubiquitin specific peptidase 45	USP45	Homo sapiens (Human)	148
+H0Y8S4	unreviewed	H0Y8S4_HUMAN	OTU deubiquitinase with linear linkage specificity	OTULIN	Homo sapiens (Human)	66
+H0Y986	unreviewed	H0Y986_HUMAN	Ubiquitin specific peptidase 45	USP45	Homo sapiens (Human)	135
+H0Y9T0	unreviewed	H0Y9T0_HUMAN	OTU deubiquitinase with linear linkage specificity	OTULIN	Homo sapiens (Human)	84
+H0YA21	unreviewed	H0YA21_HUMAN	Ubiquitin specific peptidase 45	USP45	Homo sapiens (Human)	191
+H0YD08	unreviewed	H0YD08_HUMAN	Ubiquitin specific peptidase 33	USP33	Homo sapiens (Human)	139
+H0YFX3	unreviewed	H0YFX3_HUMAN	Ubiquitin specific peptidase 28	USP28	Homo sapiens (Human)	244
+H0YG96	unreviewed	H0YG96_HUMAN	Ubiquitin specific peptidase 28	USP28	Homo sapiens (Human)	360
+H0YH96	unreviewed	H0YH96_HUMAN	Ubiquitin specific peptidase 15	USP15	Homo sapiens (Human)	49
+H0YI26	unreviewed	H0YI26_HUMAN	Ubiquitin specific peptidase 15	USP15	Homo sapiens (Human)	157
+H0YI31	unreviewed	H0YI31_HUMAN	Ubiquitin specific peptidase 15	USP15	Homo sapiens (Human)	240
+H0YJH5	unreviewed	H0YJH5_HUMAN	MINDY lysine 48 deubiquitinase 1	MINDY1	Homo sapiens (Human)	142
+H0YM72	unreviewed	H0YM72_HUMAN	Ubiquitin specific peptidase 3	USP3	Homo sapiens (Human)	106
+H0YMI7	unreviewed	H0YMI7_HUMAN	OTU deubiquitinase 7A	OTUD7A	Homo sapiens (Human)	113
+H3BLX5	unreviewed	H3BLX5_HUMAN	Ubiquitin specific peptidase 48	USP48	Homo sapiens (Human)	115
+H3BNA1	unreviewed	H3BNA1_HUMAN	Ubiquitin specific peptidase 10	USP10	Homo sapiens (Human)	150
+H3BPZ5	unreviewed	H3BPZ5_HUMAN	CYLD lysine 63 deubiquitinase	CYLD	Homo sapiens (Human)	33
+H3BQP1	unreviewed	H3BQP1_HUMAN	Ubiquitin specific peptidase 10	USP10	Homo sapiens (Human)	110
+H3BSW9	unreviewed	H3BSW9_HUMAN	CYLD lysine 63 deubiquitinase	CYLD	Homo sapiens (Human)	304
+H3BVF1	unreviewed	H3BVF1_HUMAN	Ubiquitin specific peptidase 10	USP10	Homo sapiens (Human)	158
+H7BZK6	unreviewed	H7BZK6_HUMAN	Ubiquitin specific peptidase 46	USP46	Homo sapiens (Human)	339
+H7C253	unreviewed	H7C253_HUMAN	Ubiquitin specific peptidase 25	USP25	Homo sapiens (Human)	204
+H7C5J3	unreviewed	H7C5J3_HUMAN	Ubiquitin specific peptidase 13	USP13	Homo sapiens (Human)	299
+I3L117	unreviewed	I3L117_HUMAN	CYLD lysine 63 deubiquitinase	CYLD	Homo sapiens (Human)	66
+J3KT19	unreviewed	J3KT19_HUMAN	Ubiquitin specific peptidase 10	USP10	Homo sapiens (Human)	208
+J3QKR2	unreviewed	J3QKR2_HUMAN	CYLD lysine 63 deubiquitinase	CYLD	Homo sapiens (Human)	104
+J3QS30	unreviewed	J3QS30_HUMAN	Ubiquitin specific peptidase 22	USP22	Homo sapiens (Human)	102
+K7EII4	unreviewed	K7EII4_HUMAN	Ubiquitin specific peptidase 32	USP32	Homo sapiens (Human)	246
+K7EKK3	unreviewed	K7EKK3_HUMAN	Ubiquitin specific peptidase 32	USP32	Homo sapiens (Human)	133
+K7ELR5	unreviewed	K7ELR5_HUMAN	Ubiquitin specific peptidase 36	USP36	Homo sapiens (Human)	234
+K7EMM6	unreviewed	K7EMM6_HUMAN	Ubiquitin specific peptidase 36	USP36	Homo sapiens (Human)	259
+K7EPT1	unreviewed	K7EPT1_HUMAN	Ubiquitin specific peptidase 36	USP36	Homo sapiens (Human)	179
+K7EQS0	unreviewed	K7EQS0_HUMAN	Ubiquitin specific peptidase 36	USP36	Homo sapiens (Human)	159
+M0QZL0	unreviewed	M0QZL0_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	USP29	Homo sapiens (Human)	30
+Q1K9C9	unreviewed	Q1K9C9_HUMAN	Oncogene	tre	Homo sapiens (Human)	586
+Q2NL66	unreviewed	Q2NL66_HUMAN	USP15 protein	USP15	Homo sapiens (Human)	235
+Q4VC15	unreviewed	Q4VC15_HUMAN	USP32 protein	USP32	Homo sapiens (Human)	389
+Q59EZ5	unreviewed	Q59EZ5_HUMAN	USP9X protein variant		Homo sapiens (Human)	867
+Q5JPK1	unreviewed	Q5JPK1_HUMAN	Uncharacterized protein DKFZp313A2010 (Uncharacterized protein DKFZp313B2010)	DKFZp313B2010 DKFZp313A2010	Homo sapiens (Human)	107
+Q5JXD3	unreviewed	Q5JXD3_HUMAN	Ubiquitin specific peptidase 11	USP11	Homo sapiens (Human)	140
+Q5PY18	unreviewed	Q5PY18_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)		Homo sapiens (Human)	77
+Q5TBK7	unreviewed	Q5TBK7_HUMAN	Ubiquitin C-terminal hydrolase L3	UCHL3	Homo sapiens (Human)	228
+Q5VXQ8	unreviewed	Q5VXQ8_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	TNFAIP3	Homo sapiens (Human)	162
+Q6IRT0	unreviewed	Q6IRT0_HUMAN	USP32 protein	USP32	Homo sapiens (Human)	367
+Q6P2I0	unreviewed	Q6P2I0_HUMAN	USP10 protein	USP10	Homo sapiens (Human)	194
+Q6P468	unreviewed	Q6P468_HUMAN	USP9X protein	USP9X	Homo sapiens (Human)	918
+Q8IXW9	unreviewed	Q8IXW9_HUMAN	USP36 protein (Ubiquitin specific peptidase 36)	USP36	Homo sapiens (Human)	285
+Q9HA22	unreviewed	Q9HA22_HUMAN	cDNA FLJ12385 fis, clone MAMMA1002619, weakly similar to PROBABLE UBIQUITIN CARBOXYL-TERMINAL HYDROLASE K02C4.3		Homo sapiens (Human)	523
+Q9NSJ7	unreviewed	Q9NSJ7_HUMAN	Uncharacterized protein DKFZp434K1822	DKFZp434K1822	Homo sapiens (Human)	264
+Q9NSS9	unreviewed	Q9NSS9_HUMAN	Uncharacterized protein DKFZp761E10121	DKFZp761E10121	Homo sapiens (Human)	268
+Q9Y2R8	unreviewed	Q9Y2R8_HUMAN	SIH003		Homo sapiens (Human)	317
+Q9Y417	unreviewed	Q9Y417_HUMAN	ubiquitinyl hydrolase 1 (EC 3.4.19.12)	DKFZp586N041	Homo sapiens (Human)	276
+S4R3D1	unreviewed	S4R3D1_HUMAN	Ubiquitin specific peptidase 30	USP30	Homo sapiens (Human)	91
+V9GXZ5	unreviewed	V9GXZ5_HUMAN	Ubiquitin specific peptidase 43	USP43	Homo sapiens (Human)	910
+V9GY36	unreviewed	V9GY36_HUMAN	Ubiquitin specific peptidase 21	USP21	Homo sapiens (Human)	253
+V9GZ20	unreviewed	V9GZ20_HUMAN	Ubiquitin specific peptidase 43	USP43	Homo sapiens (Human)	648
+W6MEN2	unreviewed	W6MEN2_HUMAN	Ubiquitin carboxyl-terminal hydrolase 25	usp25	Homo sapiens (Human)	303
+X6RGF2	unreviewed	X6RGF2_HUMAN	Ubiquitin specific peptidase 54	USP54	Homo sapiens (Human)	143
+X6RH50	unreviewed	X6RH50_HUMAN	Ubiquitin specific peptidase 54	USP54	Homo sapiens (Human)	153
+X6RHN7	unreviewed	X6RHN7_HUMAN	Ubiquitin specific peptidase 54	USP54	Homo sapiens (Human)	80
